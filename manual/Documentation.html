@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Project Dawn | Dots Plus | Tool </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Project Dawn | Dots Plus | Tool ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<img src="SplashScreen.png" width="300" height="300">
+<p>Version 1.7.0</p>
+<h1 id="project-dawn--dots-plus--tool">Project Dawn | Dots Plus | Tool</h1>
+<h2 id="overview">Overview</h2>
+<p>This package contains essentials needed to develop DOTS projects. It is built to be used as an extension for existing Unity builtin packages (etc. SIMD mathematics, Collections, Jobs and Burst compiler).</p>
+<p>Library is developed to fit well with Unity DOTS standards. This includes performance by default, simplicity and most importantly, readability of the code. Driven to take the best HPC# can offer.</p>
+<h2 id="collections">Collections</h2>
+<p>This assembly follows similar standard like unity collection package so it is important to check pages:</p>
+<ul>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/index.html">https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/index.html</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/collection-types.html">https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/collection-types.html</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/allocation.html">https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/allocation.html</a></li>
+</ul>
+<h3 id="native-vs-unsafe">Native vs Unsafe</h3>
+<p>The <code>Native</code> types perform safety checks to ensure that indexes passed to their methods are in bounds, but the other types in most cases do not.
+Check page for more information <a href="https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/index.html">https://docs.unity3d.com/Packages/com.unity.collections@1.3/manual/index.html</a>.</p>
+<h3 id="nativelinkedlistunsafelinkedlist">NativeLinkedList/UnsafeLinkedList</h3>
+<p>An unmanaged, resizable linked list.
+Linked list is efficient at inserting and removing elements. However, not so efficient with cache usage.
+Linked list is implemented using double linked nodes, where each node knows its next-node link and previous-node link.</p>
+<pre><code>var list = new NativeLinkedList&lt;int&gt;(Allocator.Temp);
+
+list.Add(0);
+var itr = list.Add(1);
+list.Add(2);
+
+list.RemoveAt(itr);
+
+Assert.AreEqual(list.Begin, 0);
+Assert.AreEqual(list.Begin.Next, 2);
+
+list.Dispose();
+</code></pre>
+<blockquote>
+<p><b>Note:</b> Linked list is recommended to be used if you plan to keep added elements iteration position.</p>
+</blockquote>
+<h3 id="nativestackunsafestack">NativeStack/UnsafeStack</h3>
+<p>An managed, resizable stack.
+Limited version of NativeList that only operates with the last element at the time.</p>
+<pre><code>var stack = new NativeStack&lt;int&gt;(Allocator.Temp);
+
+stack.Push(0);
+stack.Push(1);
+stack.Push(2);
+stack.Push(3);
+Assert.AreEqual(3, stack.Pop());
+Assert.AreEqual(2, stack.Pop());
+Assert.AreEqual(1, stack.Pop());
+Assert.AreEqual(0, stack.Pop());
+
+stack.Dispose();
+</code></pre>
+<h3 id="nativelinkedpriorityqueueunsafelinkedpriorityqueue">NativeLinkedPriorityQueue/UnsafeLinkedPriorityQueue</h3>
+<p>An unmanaged, resizable priority queue.
+Priority queue main difference from regular queue that before element enqueue it executes insert sort.
+It is implemented using linked list. Peek = O(1), Enqueue = O(n), Dequeue = O(1).</p>
+<pre><code>struct AscendingOrder : IComparer&lt;int&gt;
+{
+    public int Compare(int x, int y) =&gt; x.CompareTo(y);
+}
+
+var queue = new NativeLinkedPriorityQueue&lt;int, AscendingOrder&gt;(Allocator.Temp, new AscendingOrder());
+
+queue.Enqueue(2);
+queue.Enqueue(1);
+
+Assert.AreEqual(1, queue.Dequeue());
+Assert.AreEqual(2, queue.Dequeue());
+
+queue.Dispose();
+</code></pre>
+<h3 id="nativeheappriorityqueueunsafeheappriorityqueue">NativeHeapPriorityQueue/UnsafeHeapPriorityQueue</h3>
+<p>An unmanaged, resizable priority queue.
+Priority queue main difference from regular queue that it is sorted.
+It is implemented using heap. Peek = O(1), Enqueue = O(log n), Dequeue = O(log n).</p>
+<pre><code>var queue = new NativeHeapPriorityQueue&lt;int, int&gt;(Allocator.Temp);
+
+queue.Enqueue(2, 2);
+queue.Enqueue(1, 1);
+
+Assert.AreEqual(1, queue.Dequeue());
+Assert.AreEqual(2, queue.Dequeue());
+
+queue.Dispose();
+</code></pre>
+<h3 id="nativekdtreeunsafekdtree">NativeKdTree/UnsafeKdTree</h3>
+<p>K-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.
+K-d trees are a useful data structure for several applications, such as searches involving a multidimensional search key (e.g. range searches and nearest neighbor searches) and creating point clouds.
+K-d trees are a special case of binary space partitioning trees.</p>
+<pre><code>struct TreeComparer : IKdTreeComparer&lt;float2&gt;
+{
+    public int Compare(float2 x, float2 y, int depth)
+    {
+        int axis = depth % 2;
+        return x[axis].CompareTo(y[axis]);
+    }
+
+    public float DistanceSq(float2 x, float2 y)
+    {
+        return math.distancesq(x, y);
+    }
+
+    public float DistanceToSplitSq(float2 x, float2 y, int depth)
+    {
+        int axis = depth % 2;
+        return (x[axis] - y[axis]) * (x[axis] - y[axis]);
+    }
+}
+
+var tree = new NativeKdTree&lt;float2, TreeComparer&gt;(1, Allacator.Temp, new TreeComparer());
+
+tree.Add(new float2(1, 1));
+tree.Add(new float2(2, 2));
+
+Assert.AreEqual(1, FindNearest(new float2(0, 0), out _).Value);
+
+tree.Dispose();
+</code></pre>
+<blockquote>
+<p><b>Note:</b> K-D tree operations like nearest neighbor search have overhead. As a result, it is recommended to use it when you have lots of points in space.</p>
+</blockquote>
+<h3 id="nativeaabbtreeunsafeaabbtree">NativeAABBTree/UnsafeAABBTree</h3>
+<p>An unmanaged, resizable aabb tree.
+AABB tree (short for axis aligned bounding box tree) is a space-partitioning data structure for organizing bounding shapes in space.
+As structure uses generic it is not only usable for boxes, but any shape that implements interfaces.
+AABB trees are a useful data structure for fast searching bounding shapes in space.
+AABB trees are a special case of binary space partitioning trees.
+Based on <a href="https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf">https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf</a>.</p>
+<pre><code>struct AABRectangle : ISurfaceArea&lt;AABRectangle&gt;, IUnion&lt;AABRectangle&gt;, IOverlap&lt;AABRectangle&gt;
+{
+    public Rectangle Rectangle;
+
+    public AABRectangle(Rectangle rectangle)
+    {
+        Rectangle = rectangle;
+    }
+
+    public float SurfaceArea() =&gt; Rectangle.Perimeter;
+    public AABRectangle Union(AABRectangle value) =&gt; new AABRectangle(Rectangle.Union(Rectangle, value.Rectangle));
+    public bool Overlap(AABRectangle value) =&gt; Rectangle.Overlap(value.Rectangle);
+}
+
+...
+
+var tree = new UnsafeAABBTree&lt;AABRectangle&gt;(1, Allocator.Temp);
+
+// Construct tree:
+//            N
+//          /   \
+//         N     N
+//        / \   / \
+//       a   b  c  d
+
+var a = tree.Add(new AABRectangle(new Rectangle(new float2(5, 5), new float2(1, 1))));
+var b = tree.Add(new AABRectangle(new Rectangle(new float2(6, 6), new float2(1, 1))));
+
+var c = tree.Add(new AABRectangle(new Rectangle(new float2(-5, -5), new float2(1, 1))));
+var d = tree.Add(new AABRectangle(new Rectangle(new float2(-6, -6), new float2(1, 1))));
+
+Assert.AreEqual(tree.Right(tree.Right(tree.Root)), d);
+Assert.AreEqual(tree.Left(tree.Right(tree.Root)), c);
+Assert.AreEqual(tree.Right(tree.Left(tree.Root)), b);
+Assert.AreEqual(tree.Left(tree.Left(tree.Root)), a);
+
+var result = new NativeList&lt;AABRectangle&gt;(2, Allocator.Temp);
+tree.FindOverlap(new AABRectangle(new Rectangle(new float2(5, 5), new float2(2, 2))), ref result);
+
+Assert.AreEqual(2, result.Length);
+Assert.IsTrue(tree[a].Rectangle == result[0].Rectangle);
+Assert.IsTrue(tree[b].Rectangle == result[1].Rectangle);
+
+result.Dispose();
+
+tree.Dispose();
+</code></pre>
+<h2 id="mathematics">Mathematics</h2>
+<p>This assembly follows similar standard like unity mathematics package, so it is important to check pages:</p>
+<ul>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/manual/index.html">https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/manual/index.html</a></li>
+</ul>
+<h3 id="why-lower-case-naming-convention">Why lower case naming convention?</h3>
+<p>The main reason is that Unity mathematics follows the same conventions.</p>
+<p><em>Only worse thing than bad syntax is inconsistent syntax</em></p>
+<h3 id="fast-math">Fast Math</h3>
+<p>There is a small helper class <code>ProjectDawn.Mathematics.fastmath</code> that contains several faster math functions at the expense of precision.</p>
+<h2 id="geometry-2d">Geometry 2D</h2>
+<p>This assembly provides common 2d shapes used in game development (etc. circle, rectangle, line, capsule, convex polygon...).
+Those shapes contain useful functions like:</p>
+<ul>
+<li>Testing if shapes <code>Overlap</code>.</li>
+<li>Finding minimum <code>Distance</code> between shapes.</li>
+<li>Finding <code>BoundingRectangle</code>, <code>InscribedCircle</code>, <code>CircumscribedCircle</code> on the shape.</li>
+<li>Finding <code>Intersection</code> of shape and ray.</li>
+</ul>
+<h3 id="convex-polygon">Convex Polygon</h3>
+<p>There are two APIs for executing convex polygon operations.</p>
+<ul>
+<li><code>ConvexPolygon</code> container that needs to be allocated.</li>
+<li><code>ConvexPolygonUtility</code> static class that can be used with already allocated points array.</li>
+</ul>
+<h3 id="voronoi">Voronoi</h3>
+<p>Voronoi is a partition of a plane into regions close to each of a given set of objects. In the simplest case, these objects are just finitely many points in the plane (called seeds, sites, or generators).
+For each seed there is a corresponding region, called a Voronoi cell, consisting of all points of the plane closer to that seed than to any other.</p>
+<img src="Voronoi.png" width="300">
+<p><em>Voronoi generated from 5 sites named A, B, C, D, E.</em></p>
+<p>Voronoi logic is separated into two structures:</p>
+<ul>
+<li><code>VoronoiBuilder</code> - used for gathering sites and constructing voronoi shape.</li>
+<li><code>IVoronoiOutput</code> - the interface used for ouputing voronoi shape.</li>
+</ul>
+<h4 id="voronoi-builder">Voronoi Builder</h4>
+<p>Structure used for building voronoi.
+The usage of API is quite simple.</p>
+<pre><code>// Allocating builder
+var builder = new VoronoiBuilder(1, Allocator.Temp);
+
+// Adding site at point 0, 0
+builder.Add(new double2(0, 0));
+
+// Outputing the voronoi into `IVoronoiOutput`
+builder.Construct(ref output);
+
+// Destroying
+builder.Dispose()
+</code></pre>
+<h4 id="ivoronoioutput">IVoronoiOutput</h4>
+<p>This interface is used by <code>VoronoiBuilder</code> to call specific callback for constructing voronoi.</p>
+<pre><code>// Callback after VoronoiBuilder processes the site.
+void ProcessSite(double2 point, int index);
+
+// Callback after VoronoiBuilder processes the vertex.
+int ProcessVertex(double2 point);
+
+// Callback after VoronoiBuilder processes the edge.
+void ProcessEdge(double a, double b, double c, 
+int leftVertexIndex, int rightVertexIndex, 
+int leftSiteIndex, int rightSiteIndex);
+
+// Callback after VoronoiBuilder finished building.
+void Build();
+</code></pre>
+<p>Here is very simple example that draws wireframe of voronoi.</p>
+<pre><code>struct CustomVoronoiOutput : IVoronoiOutput
+{
+    NativeList&lt;float2&gt; m_Vertices;
+
+    public CustomVoronoiOutput(Allocator allocator)
+    {
+        m_Vertices = new NativeList&lt;float2&gt;(allocator);
+    }
+
+    public void Dispose()
+    {
+        m_Vertices.Dispose();
+    }
+
+    public void ProcessSite(double2 point, int siteIndex)
+    {
+        ShapeGizmos.DrawText((float2)point, $&quot;{(char)(65 + siteIndex)}&quot;, Color.white);
+    }
+
+    public void ProcessEdge(double a, double b, double c, 
+        int leftVertexIndex, int rightVertexIndex, 
+        int leftSiteIndex, int rightSiteIndex)
+    {
+        float extent = 120;
+        float2 leftVertex = leftVertexIndex != -1 ? m_Vertices[leftVertexIndex] : new float2(-extent, line((float)a, (float)b, (float)c, -extent));
+        float2 rightVertex = rightVertexIndex != -1 ? m_Vertices[rightVertexIndex] : new float2(extent, line((float)a, (float)b, (float)c, extent));
+        ShapeGizmos.DrawLine(leftVertex, rightVertex, Color.green);
+    }
+
+    public int ProcessVertex(double2 point)
+    {
+        ShapeGizmos.DrawSolidCircle((float2)point, 0.1f, Color.green);
+        m_Vertices.Add((float2)point);
+        return m_Vertices.Length - 1;
+    }
+
+    public void Build()
+    {
+    }
+}
+</code></pre>
+<h4 id="voronoidiagram">VoronoiDiagram</h4>
+<p>Structure used for constructing cells, edges and vertices that implements <code>IVoronoiOutput</code>.</p>
+<h4 id="delaunaytriangulation">DelaunayTriangulation</h4>
+<p>Structure used for constructing delaunay dual that implements <code>IVoronoiOutput</code>. Quite useful for mesh triangulation.</p>
+<h2 id="geometry-3d">Geometry 3D</h2>
+<p>This assembly provides common 3d shapes used in game development (etc. box, sphere, capsule, line, triangle, trinagular surface, ray...).
+Those shapes contain useful functions like:</p>
+<ul>
+<li>Testing if shapes <code>Overlap</code>.</li>
+<li><code>Triangle</code> and <code>Ray</code> intersection time.</li>
+<li><code>Triangle</code> and <code>Triangle</code> intersection lines.</li>
+<li><code>TriangularSurface</code> similar to mesh.</li>
+</ul>
+<h3 id="vertexdataunsafevertexdata">VertexData/UnsafeVertexData</h3>
+<p>Structure used for containing vertex data (etc. position, normal, uv ...). Array supports generic data and depends on attributes passed during structure creation. As example it allows having only positions vertex or positions and normals or other setup.</p>
+<p>All vertex data is stored in interleaved array. As example VertexData with three attributes - position, normal, uv, would be stored in memory as follows:
+| a| b| c| d| e| f|...|
+|--|--|--|--|--|--|--|
+| position0 | normal0 | uv0 | position1 | normal1 | uv1 | ... |</p>
+<h3 id="meshsurfaceunsafemeshsurface">MeshSurface/UnsafeMeshSurface</h3>
+<p>Structure equivalent of Unity <code>Mesh</code> class.
+Mainly it has three purposes:</p>
+<ul>
+<li><code>Read</code> - copy <code>Mesh</code> into <code>MeshSurface</code>.</li>
+<li><code>Write</code> - copy <code>MeshSurface</code> into <code>Mesh</code>.</li>
+<li>Modify its <code>VertexData</code>, <code>Indices</code> and <code>Submeshes</code>.</li>
+</ul>
+<p>Here is small example of creating box <code>Mesh</code> using <code>MeshSurface</code>:</p>
+<pre><code>var attributes = new NativeArray&lt;VertexAttributeDescriptor&gt;(1, Allocator.Temp);
+attributes[0] = new VertexAttributeDescriptor(VertexAttribute.Position, VertexAttributeFormat.Float32, 3);
+
+var surface = new MeshSurface(1, attributes, Allocator.TempJob);
+
+JobHandle dependency = surface.Box(Box, default);
+
+if (TryGetComponent(out MeshFilter meshFilter))
+{
+    var meshDataArray = Mesh.AllocateWritableMeshData(1);
+
+    dependency = surface.Write(meshDataArray[0], MeshUpdateFlags.Default, dependency);
+
+    dependency.Complete();
+
+    if (meshFilter.sharedMesh == null)
+        meshFilter.sharedMesh = new Mesh();
+    Mesh.ApplyAndDisposeWritableMeshData(meshDataArray, meshFilter.sharedMesh);
+}
+
+attributes.Dispose();
+surface.Dispose();
+</code></pre>
+<h2 id="gizmos">Gizmos</h2>
+<p>Both 2d and 3d contains helper class <code>ShapeGizmos</code> that have methods for drawing shapes in gizmos.
+It is very useful for debug purpose or drawing gizmos in general.</p>
+<p>Here is small example drawing red rectangle:</p>
+<pre><code>void OnDrawGizmos()
+{
+    ShapeGizmos.DrawWireRectangle(new Rectangle(new float2(0, 0), new float2(1, 1)), Color.red);
+}
+</code></pre>
+<h2 id="tests-and-samples">Tests and Samples</h2>
+<p>The package contains samples and tests, so it is quite recommended to check them to get an overall sense of API usage.</p>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>Tested with Unity 2020.3</li>
+<li>Package <a href="(https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/manual/index.html)">com.unity.mathematics@1.2</a></li>
+<li>Package <a href="https://docs.unity3d.com/Packages/com.unity.collections@0.9/manual/index.html">com.unity.collections@0.9</a></li>
+<li>Package <a href="(https://docs.unity3d.com/Packages/com.unity.burst@1.4/manual/index.html)">com.unity.burst@1.4</a></li>
+</ul>
+<h2 id="support">Support</h2>
+<p>If you have questions, bugs or feature requests use <a href="https://discord.gg/WrBGrYbkW9">Discord</a>.</p>
+<p>Current API selection comes from what I personally needed during Unity DOTS project development. This package expected to grow based on the users request. Final goal is to have a library that would make every DOTS developer's life easier (etc. C++ Boost).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

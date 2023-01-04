@@ -1,0 +1,1214 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Lukas/Source/DotsPlus/Packages/com.projectdawn.dotsplus/Documentation~/.docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.CollectionChecks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.CollectionChecks.html",
+          "hash": "gg6D1m3bILjF/imUQGGU1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.IKdTreeComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.IKdTreeComparer-1.html",
+          "hash": "filwcCgSmNuvthDuJNFcfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.IOverlap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.IOverlap-1.html",
+          "hash": "02+seRgNvc5HSui1SiB0iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.ISurfaceArea-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.ISurfaceArea-1.html",
+          "hash": "XP4QUje/Z3ZJMqI2lx+Nsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.IUnion-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.IUnion-1.html",
+          "hash": "D6gbTF5tgIjtadRRdQMQwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeAABBTree-1.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeAABBTree-1.Handle.html",
+          "hash": "+FB0T1LjDCLReygidT5zzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeAABBTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeAABBTree-1.html",
+          "hash": "ByaCpB8NhxlLnmPjG7H7cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeHeap-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeHeap-2.html",
+          "hash": "LQ4k031CyIllbcUkDw8twA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html",
+          "hash": "x3c/oOkxkJV3nJiEvdllYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.html",
+          "hash": "oGhmAnFMwZj64kKhH+Awfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.Enumerator.html",
+          "hash": "urZzcvUYDPV5/xDTI+f+aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.Handle.html",
+          "hash": "wjAIsZUzgPvcb83aBC9X3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.html",
+          "hash": "e20z2MV1cZY2V+vWHWq/yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedPriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedPriorityQueue-2.html",
+          "hash": "rdBCi4DnVTyslkYRD3JoWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeStack-1.html",
+          "hash": "z/Hn71MXQorC+PKx4xrCpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeStructureList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.UnsafeStructureList.html",
+          "hash": "50mv9maAwX7b71TjlybGew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.LowLevel.Unsafe.html",
+          "hash": "2HkYxDHCQRMPlELCWk4oIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.Iterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.Iterator.html",
+          "hash": "T4Srwk02nyKlfUmz8TwnSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.html",
+          "hash": "hk0JABCMi9rPW9/8dMt+Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeHeapPriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeHeapPriorityQueue-2.html",
+          "hash": "2g03auCCcvkmMS+qHo+VuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.Iterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.Iterator.html",
+          "hash": "Ncgu6BjVyg+oq/K6VBzyKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.html",
+          "hash": "sucJN5oMB2w0StBj8ZscWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.Iterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.Iterator.html",
+          "hash": "AP2ESwmRW0XcRHxDPO53sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.html",
+          "hash": "3pP+XLQgmf1Qu/J19vC3IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.DefaultComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.DefaultComparer-1.html",
+          "hash": "BogUHlq7KIa3rbHnVIo+Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.html",
+          "hash": "L4bOC+KkUKyUCxlWmaNzsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeLinkedPriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeLinkedPriorityQueue-2.html",
+          "hash": "Tcdwbx7ggg/iuWF++0W3iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeListExtensnios.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeListExtensnios.html",
+          "hash": "d1kpJYBzD+ax+Mhs8KqJmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativePriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativePriorityQueue-2.html",
+          "hash": "8DxiVHPa53XSlV+OeeaXBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeStack-1.ParallelWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeStack-1.ParallelWriter.html",
+          "hash": "29SH7TVeOaSLl/JJpD4awg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeStack-1.html",
+          "hash": "S4hOQNURiaNUXmbGkb6xGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.NativeStructureList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.NativeStructureList.html",
+          "hash": "MqUtFT3W7YGwCkvHVTbaWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.UnsafePriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.UnsafePriorityQueue-2.html",
+          "hash": "rcValqX9FFIhQxjCA7XbYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Collections.html",
+          "hash": "c7uHuoB8WREc6utCqHazZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.Capsule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.Capsule.html",
+          "hash": "kq31Hnckxq08PlPrTRvv0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.Circle.html",
+          "hash": "n37YNh2c1h3dzg7jvogVlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ConvexPolygon-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ConvexPolygon-1.html",
+          "hash": "ydnpzcNm0hD4uC8aW8gSSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ConvexPolygonUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ConvexPolygonUtility.html",
+          "hash": "KFd9DI1xbToWDCiMqkbi9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.DelaunayTriangulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.DelaunayTriangulation.html",
+          "hash": "pDtFUUxPGJZ5U7ABpHv2uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ITransformFloat2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ITransformFloat2.html",
+          "hash": "JiNsQIJJ7KVNtYIELYohNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.IVoronoiOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.IVoronoiOutput.html",
+          "hash": "24FHxu2Z4r+gm8qAFZbUNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.Line.html",
+          "hash": "r6K7gkq8EXObUCMQifndAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.LowLevel.Unsafe.UnsafeVoronoiBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.LowLevel.Unsafe.UnsafeVoronoiBuilder.html",
+          "hash": "Hw6Kuzc0KKIoiuYsBbJ3Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.LowLevel.Unsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.LowLevel.Unsafe.html",
+          "hash": "t4cyEp7vwu9ctB94cyKDFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.Ray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.Ray.html",
+          "hash": "HpQX/bITUC2VcEwQEKtneQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.Rectangle.html",
+          "hash": "APR8mQ18lDCltNg/ni94Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ShapeGizmos.ChartFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ShapeGizmos.ChartFunction.html",
+          "hash": "Ni7Pvfi/A1ua1r0hZIA3HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ShapeGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ShapeGizmos.html",
+          "hash": "jmLoTk5oTPusyx/q05kTbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.ShapeUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.ShapeUtility.html",
+          "hash": "n504+XhnG/5CZupK3JQKcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiBuilder.html",
+          "hash": "yogPb+U7CQu60MwdUmOThg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiCell.html",
+          "hash": "oQmfhkbWGDegpaW5NqSFmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiDiagram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiDiagram.html",
+          "hash": "+5kVzwy3B9z9DbG9+AO1CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiEdge.html",
+          "hash": "7LqMcYDpLoJ2kmg/Iw0yTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiVertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiVertex.html",
+          "hash": "T0vpNW6ZrbdZhw1DOAOSlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.VoronoiVertexType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.VoronoiVertexType.html",
+          "hash": "lVxufLZTSgjtsy0s7VfTBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry2D.html",
+          "hash": "NydhPk+thAGuzwEnqEb02g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Box.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Box.html",
+          "hash": "jNsEQE6e2xYmRCaBvN6mdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Capsule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Capsule.html",
+          "hash": "YbLOpLa6IHf1xg4VjtJbLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.ITransformFloat3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.ITransformFloat3.html",
+          "hash": "3q3Pvp9ybyiVaKLK2IXKnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Line.html",
+          "hash": "92m9cMLyhqH0ies2LW685Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.LowLevel.Unsafe.UnsafeVertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.LowLevel.Unsafe.UnsafeVertexData.html",
+          "hash": "dQGM5++GZ7JK4TEQSSJVUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.LowLevel.Unsafe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.LowLevel.Unsafe.html",
+          "hash": "VUNUQVCVaj9QMEkMWNgR4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.MeshExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.MeshExtensions.html",
+          "hash": "DRDwtblmXG8Fe4uK0dXKFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.MeshSurface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.MeshSurface.html",
+          "hash": "I/ozRYwGx3Lurf9PgA7NYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.MeshSurfaceGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.MeshSurfaceGeneration.html",
+          "hash": "vwccQiiL/K82sz1iXD1thQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Plane.html",
+          "hash": "A0zu5iLnHLlVEXQr45fc8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Ray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Ray.html",
+          "hash": "2KQbHd5yBn8MofEDMlzFWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.ShapeGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.ShapeGizmos.html",
+          "hash": "T/4YTEZ5YKN34wJowRJdjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.ShapeUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.ShapeUtility.html",
+          "hash": "W2Ij21WvLhgnxekKKfhIgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Sphere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Sphere.html",
+          "hash": "oauZubsMkY+dtu1KTTznCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.SurfaceLineIntersection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.SurfaceLineIntersection.html",
+          "hash": "keRutM7Q+0bvsj+kVdMBRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.SurfacePointIntersection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.SurfacePointIntersection.html",
+          "hash": "ysb68/Xa00dVlh0MW4D5Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.Triangle.html",
+          "hash": "14RKr48CPBdd9DUcjcc3sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.TriangularSurface-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.TriangularSurface-1.html",
+          "hash": "opcrkOfrs/DhstYWkQ9E+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.VertexAttributeUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.VertexAttributeUtility.html",
+          "hash": "2xig/kSEt2Ol8b5ULdMwgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.VertexAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.VertexAttributes.html",
+          "hash": "ybdx8oaXbzRN+/ODbKeR9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.VertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.VertexData.html",
+          "hash": "HwOQMvIOqp9r8nFsmM+9Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Geometry3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Geometry3D.html",
+          "hash": "sG9ZkGPJfinxWndaWsI0pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Mathematics.fastmath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Mathematics.fastmath.html",
+          "hash": "BD61NVpdZOQvIQDFz4rZFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Mathematics.math2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Mathematics.math2.html",
+          "hash": "jnuml/3qnSG2EfhpkZfaFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Mathematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Mathematics.html",
+          "hash": "v2uhBWHsuyL/IHRisxbYfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "117BJs3EwKYUrlTBON+fuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "S/bIsvPB8mCaEZhrhZ8AEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog.html",
+          "hash": "9KDWlgVTydePPdB5JKlrng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sr+mTEyS2oxI4ZeyDsq+GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/Documentation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/Documentation.html",
+          "hash": "uymSpL1cGjRtSfBBFyJHhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/collections.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/collections.html",
+          "hash": "c2uydWb5Ub6Fww7tJpC65Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/geometry2d.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/geometry2d.html",
+          "hash": "hr7Cla8grw72ubdz4TiogQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/geometry3d.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/geometry3d.html",
+          "hash": "cEYyEMI66nEAUe3aSPVCzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/gizmos.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/gizmos.html",
+          "hash": "/XPg+2K7eTqXm8p4NUSzrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/voronoi.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/voronoi.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "rYD+xBdXfBACBf3cdfKkqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/mathematics.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/mathematics.html",
+          "hash": "bn/cGoN9OHs7e9yXSWuKyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "s5qAh4n9tPBLPRjgvfU0yA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "RA4fr8GzRS+5rZO3qZUV/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 81,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

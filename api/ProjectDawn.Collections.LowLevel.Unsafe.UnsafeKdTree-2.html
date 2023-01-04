@@ -1,0 +1,1045 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct UnsafeKdTree&lt;TValue, TComparer&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct UnsafeKdTree&lt;TValue, TComparer&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2">
+  
+  
+  <h1 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2" class="text-break">Struct UnsafeKdTree&lt;TValue, TComparer&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>An unmanaged, resizable k-d tree, without any thread safety check features.
+K-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space.
+K-d trees are a useful data structure for several applications, such as searches involving a multidimensional search key (e.g. range searches and nearest neighbor searches) and creating point clouds.
+K-d trees are a special case of binary space partitioning trees.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.html">ProjectDawn.Collections.LowLevel.Unsafe</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Collections.dll</h6>
+  <h5 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct UnsafeKdTree&lt;TValue, TComparer&gt; : IDisposable where TValue : struct where TComparer : struct, IKdTreeComparer&lt;TValue&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TComparer</span></td>
+        <td><p>The type of the comparer for sorting elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.%23ctor(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L85">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2__ctor_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.#ctor*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,`1)">UnsafeKdTree(Int32, AllocatorManager.AllocatorHandle, TComparer)</h4>
+  <div class="markdown level1 summary"><p>Initialized and returns an instance of NativeKdTree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree(int initialCapacity, AllocatorManager.AllocatorHandle allocator, TComparer comparer = default(TComparer))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the priority queue.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.AllocatorManager.AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>The allocator to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The element comparer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L48">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Capacity_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Capacity*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Capacity" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>The number of elements that fit in the current allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Capacity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of elements that fit in the current allocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L54">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsCreated_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.IsCreated*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsCreated" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.IsCreated">IsCreated</h4>
+  <div class="markdown level1 summary"><p>Whether this tree has been allocated (and not yet deallocated).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCreated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this tree has been allocated (and not yet deallocated).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L36">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsEmpty_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.IsEmpty*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_IsEmpty" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.IsEmpty">IsEmpty</h4>
+  <div class="markdown level1 summary"><p>Whether the tree is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmpty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the tree is empty or the tree has not been constructed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Item_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Item(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L65">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Item_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Item*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Item_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Item(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}.Handle)">Item[UnsafeKdTree&lt;TValue, TComparer&gt;.Handle]</h4>
+  <div class="markdown level1 summary"><p>The element at a given position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue this[UnsafeKdTree&lt;TValue, TComparer&gt;.Handle handle] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td><span class="parametername">handle</span></td>
+        <td><p>Handle of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L42">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Length_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Length*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Length" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Length">Length</h4>
+  <div class="markdown level1 summary"><p>The number of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Root.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Root%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L59">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Root_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Root*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Root" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Root">Root</h4>
+  <div class="markdown level1 summary"><p>Returns the tree root.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle Root { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Add__0_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Add(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L146">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Add_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Add*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Add__0_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Add(`0)">Add(TValue)</h4>
+  <div class="markdown level1 summary"><p>Add element to the tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle Add(TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Build_Unity_Collections_NativeArray__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Build(Unity.Collections.NativeArray%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L129">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Build_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Build*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Build_Unity_Collections_NativeArray__0__" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Build(Unity.Collections.NativeArray{`0})">Build(NativeArray&lt;TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds balanced tree from elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(NativeArray&lt;TValue&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Collections.NativeArray</span>&lt;TValue&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The values that will be used for building tree.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L486">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Clear_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Clear*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Clear" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all nodes of this tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <h5 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Clear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Does not change the capacity.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Create(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L101">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Create_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Create*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,`1)">Create(Int32, AllocatorManager.AllocatorHandle, TComparer)</h4>
+  <div class="markdown level1 summary"><p>Creates a new container with the specified initial capacity and type of memory allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnsafeKdTree&lt;TValue, TComparer&gt;*Create(int initialCapacity, AllocatorManager.AllocatorHandle allocator, TComparer comparer = default(TComparer))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the list. If the list grows larger than its capacity,
+the internal array is copied to a new, larger array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.AllocatorManager.AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>A member of the
+<a href="https://docs.unity3d.com/ScriptReference/Unity.Collections.Allocator.html">Unity.Collections.Allocator</a> enumeration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.html">UnsafeKdTree</a>&lt;TValue, TComparer&gt;*</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Destroy_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1___.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Destroy(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D*)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L117">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Destroy_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Destroy*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Destroy_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1___" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Destroy(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}*)">Destroy(UnsafeKdTree&lt;TValue, TComparer&gt;*)</h4>
+  <div class="markdown level1 summary"><p>Destroys container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Destroy(UnsafeKdTree&lt;TValue, TComparer&gt;*data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.html">UnsafeKdTree</a>&lt;TValue, TComparer&gt;*</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L497">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Dispose_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Dispose*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Dispose" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Releases all resources (memory and safety handles).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearest__0_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.FindNearest(%600%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L203">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearest_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindNearest*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearest__0_System_Int32__System_Int32_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindNearest(`0,System.Int32@,System.Int32)">FindNearest(TValue, out Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle FindNearest(TValue value, out int numSearch, int maxSearch = 2147483647)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numSearch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSearch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearestRange__0_System_Int32_Unity_Collections_NativeList__0___System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.FindNearestRange(%600%2CSystem.Int32%2CUnity.Collections.NativeList%7B%600%7D%40%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L281">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearestRange_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindNearestRange*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindNearestRange__0_System_Int32_Unity_Collections_NativeList__0___System_Int32__System_Int32_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindNearestRange(`0,System.Int32,Unity.Collections.NativeList{`0}@,System.Int32@,System.Int32)">FindNearestRange(TValue, Int32, ref NativeList&lt;TValue&gt;, out Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>The k-d nearest n neighbor search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindNearestRange(TValue value, int maxResult, ref NativeList&lt;TValue&gt; result, out int numSearch, int maxSearch = 2147483647)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value used for searching element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxResult</span></td>
+        <td><p>The number of nearest neighbors to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.NativeList</span>&lt;TValue&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td><p>Outputs the found elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numSearch</span></td>
+        <td><p>The number of elements searched.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSearch</span></td>
+        <td><p>The maximum number elements that can be searched. Quite useful for approximate search.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindRadius__0_System_Single_Unity_Collections_NativeList__0___System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.FindRadius(%600%2CSystem.Single%2CUnity.Collections.NativeList%7B%600%7D%40%2CSystem.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L368">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindRadius_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindRadius*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_FindRadius__0_System_Single_Unity_Collections_NativeList__0___System_Int32__System_Int32_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.FindRadius(`0,System.Single,Unity.Collections.NativeList{`0}@,System.Int32@,System.Int32)">FindRadius(TValue, Single, ref NativeList&lt;TValue&gt;, out Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>The k-d radius search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindRadius(TValue value, float maxDistance, ref NativeList&lt;TValue&gt; result, out int numSearch, int maxSearch = 2147483647)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value used for searching element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxDistance</span></td>
+        <td><p>The maximum distance from value used for searching.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.NativeList</span>&lt;TValue&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td><p>Outputs the found elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numSearch</span></td>
+        <td><p>The number of elements searched.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxSearch</span></td>
+        <td><p>The maximum number elements that can be searched. Quite useful for approximate search.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_GetDepth.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.GetDepth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L469">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_GetDepth_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.GetDepth*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_GetDepth" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.GetDepth">GetDepth()</h4>
+  <div class="markdown level1 summary"><p>Returns the depth of the tree. It is the maximum height of all nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetDepth()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Left_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Left(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L449">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Left_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Left*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Left_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Left(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}.Handle)">Left(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle)</h4>
+  <div class="markdown level1 summary"><p>Returns left child of handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle Left(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Parent_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Parent(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L439">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Parent_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Parent*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Parent_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Parent(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}.Handle)">Parent(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle)</h4>
+  <div class="markdown level1 summary"><p>Returns parents fo the handle/</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle Parent(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_RemoveAt_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.RemoveAt(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L157">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_RemoveAt_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.RemoveAt*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_RemoveAt_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.RemoveAt(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}.Handle)">RemoveAt(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle)</h4>
+  <div class="markdown level1 summary"><p>Removes node from the tree at givent iterator value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAt(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle iterator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td><span class="parametername">iterator</span></td>
+        <td><p>Position from which node will be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Right_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602.Right(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%7B%600%2C%601%7D.Handle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L459">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Right_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Right*"></a>
+  <h4 id="ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2_Right_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree__0__1__Handle_" data-uid="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree`2.Right(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree{`0,`1}.Handle)">Right(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle)</h4>
+  <div class="markdown level1 summary"><p>Returns right child of handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeKdTree&lt;TValue, TComparer&gt;.Handle Right(UnsafeKdTree&lt;TValue, TComparer&gt;.Handle handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree-2.Handle.html">UnsafeKdTree.Handle</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_LowLevel_Unsafe_UnsafeKdTree_2.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.LowLevel.Unsafe.UnsafeKdTree%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/UnsafeKdTree.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,902 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct UnsafePriorityQueue&lt;TValue, TComparer&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct UnsafePriorityQueue&lt;TValue, TComparer&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2">
+  
+  
+  <h1 id="ProjectDawn_Collections_UnsafePriorityQueue_2" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2" class="text-break">Struct UnsafePriorityQueue&lt;TValue, TComparer&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>An unmanaged, resizable priority queue, without any thread safety check features.
+Priority queue main difference from regular queue that before element enqueue it executes insert sort.
+It is implemented using linked nodes as a result, inserting does not require pushing data around.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TValue&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Collections.html">ProjectDawn.Collections</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Collections.dll</h6>
+  <h5 id="ProjectDawn_Collections_UnsafePriorityQueue_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This structure is obsolete from 1.7, please use either UnsafeLinkedPriorityQueue or UnsafeHeap&quot;)]
+public struct UnsafePriorityQueue&lt;TValue, TComparer&gt; : IDisposable, IEnumerable&lt;TValue&gt;, IEnumerable where TValue : struct where TComparer : struct, IComparer&lt;TValue&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TComparer</span></td>
+        <td><p>The type of comparer used for comparing elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.%23ctor(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L65">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2__ctor_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.#ctor*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2__ctor_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.#ctor(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,`1)">UnsafePriorityQueue(Int32, AllocatorManager.AllocatorHandle, TComparer)</h4>
+  <div class="markdown level1 summary"><p>Initialized and returns an instance of NativePriorityQueue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafePriorityQueue(int initialCapacity, AllocatorManager.AllocatorHandle allocator, TComparer comparer = default(TComparer))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the priority queue.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.AllocatorManager.AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>The allocator to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The element comparer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_m_Data.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.m_Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L27">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_m_Data" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.m_Data">m_Data</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnsafeLinkedList&lt;TValue&gt; m_Data</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedList-1.html">UnsafeLinkedList</a>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Allocator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Allocator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L57">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Allocator_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Allocator*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Allocator" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Allocator">Allocator</h4>
+  <div class="markdown level1 summary"><p>Allocator used by this data structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AllocatorManager.AllocatorHandle Allocator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Collections.AllocatorManager.AllocatorHandle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L46">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Capacity_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Capacity*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Capacity" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>The number of elements that fit in the current allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Capacity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of elements that fit in the current allocation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L52">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_IsCreated_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.IsCreated*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_IsCreated" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.IsCreated">IsCreated</h4>
+  <div class="markdown level1 summary"><p>Whether this queue has been allocated (and not yet deallocated).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCreated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this queue has been allocated (and not yet deallocated).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L34">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_IsEmpty_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.IsEmpty*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_IsEmpty" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.IsEmpty">IsEmpty</h4>
+  <div class="markdown level1 summary"><p>Whether the queue is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmpty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the queue is empty or the queue has not been constructed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L40">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Length_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Length*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Length" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Length">Length</h4>
+  <div class="markdown level1 summary"><p>The number of elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L196">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Clear_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Clear*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Clear" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all elements of this queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <h5 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Clear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Does not change the capacity.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Create(System.Int32%2CUnity.Collections.AllocatorManager.AllocatorHandle%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L79">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Create_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Create*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Create_System_Int32_Unity_Collections_AllocatorManager_AllocatorHandle__1_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Create(System.Int32,Unity.Collections.AllocatorManager.AllocatorHandle,`1)">Create(Int32, AllocatorManager.AllocatorHandle, TComparer)</h4>
+  <div class="markdown level1 summary"><p>Creates a new container with the specified initial capacity and type of memory allocation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnsafePriorityQueue&lt;TValue, TComparer&gt;*Create(int initialCapacity, AllocatorManager.AllocatorHandle allocator, TComparer comparer = default(TComparer))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>The initial capacity of the list. If the list grows larger than its capacity,
+the internal array is copied to a new, larger array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Collections.AllocatorManager.AllocatorHandle</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>A member of the
+<a href="https://docs.unity3d.com/ScriptReference/Unity.Collections.Allocator.html">Unity.Collections.Allocator</a> enumeration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TComparer</span></td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The element comparer to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.UnsafePriorityQueue-2.html">UnsafePriorityQueue</a>&lt;TValue, TComparer&gt;*</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Dequeue.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Dequeue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L163">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Dequeue_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Dequeue*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Dequeue" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Dequeue">Dequeue()</h4>
+  <div class="markdown level1 summary"><p>Removes the element from the end of the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue Dequeue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>Returns the removed element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown if the queue was empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Destroy_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeLinkedPriorityQueue__0__1___.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Destroy(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedPriorityQueue%7B%600%2C%601%7D*)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L92">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Destroy_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Destroy*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Destroy_ProjectDawn_Collections_LowLevel_Unsafe_UnsafeLinkedPriorityQueue__0__1___" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Destroy(ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedPriorityQueue{`0,`1}*)">Destroy(UnsafeLinkedPriorityQueue&lt;TValue, TComparer&gt;*)</h4>
+  <div class="markdown level1 summary"><p>Destroys container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Destroy(UnsafeLinkedPriorityQueue&lt;TValue, TComparer&gt;*data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Collections.LowLevel.Unsafe.UnsafeLinkedPriorityQueue-2.html">UnsafeLinkedPriorityQueue</a>&lt;TValue, TComparer&gt;*</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L204">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Dispose_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Dispose*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Dispose" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Releases all resources (memory and safety handles).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Enqueue__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Enqueue(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L104">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Enqueue_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Enqueue*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Enqueue__0__" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Enqueue(`0@)">Enqueue(TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds an element at the front of the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enqueue(in TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_EnqueueUnique__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.EnqueueUnique(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L125">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_EnqueueUnique_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.EnqueueUnique*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_EnqueueUnique__0__" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.EnqueueUnique(`0@)">EnqueueUnique(TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds an unique element at the front of the queue.
+Returns false if element already exists in queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnqueueUnique(in TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns false if element already exists in queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_GetEnumerator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L212">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_GetEnumerator_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.GetEnumerator*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_GetEnumerator" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator over the elements of this linked list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;TValue&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_Peek.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.Peek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L148">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_Peek_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Peek*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_Peek" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.Peek">Peek()</h4>
+  <div class="markdown level1 summary"><p>Returns the element at the end of this queue without removing it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue Peek()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>The element at the end of this queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_ToArray_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.ToArray(Unity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L227">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_ToArray_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.ToArray*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_ToArray_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.ToArray(Unity.Collections.Allocator)">ToArray(Allocator)</h4>
+  <div class="markdown level1 summary"><p>Returns an array containing a copy of this queue's content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NativeArray&lt;TValue&gt; ToArray(Allocator allocator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Collections.Allocator</span></td>
+        <td><span class="parametername">allocator</span></td>
+        <td><p>The allocator to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Collections.NativeArray</span>&lt;TValue&gt;</td>
+        <td><p>An array containing a copy of this queue's content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_TryDequeue__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.TryDequeue(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L178">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_TryDequeue_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.TryDequeue*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_TryDequeue__0__" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.TryDequeue(`0@)">TryDequeue(out TValue)</h4>
+  <div class="markdown level1 summary"><p>Removes the element from the end of the queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryDequeue(out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Outputs the element removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if an element was removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ProjectDawn_Collections_UnsafePriorityQueue_2_TryDequeue__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Does nothing if the queue is empty.</p>
+</div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L217">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_UnsafePriorityQueue_2_System_Collections_IEnumerable_GetEnumerator_" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="ProjectDawn_Collections_UnsafePriorityQueue_2_System_Collections_IEnumerable_GetEnumerator" data-uid="ProjectDawn.Collections.UnsafePriorityQueue`2.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_UnsafePriorityQueue_2.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.UnsafePriorityQueue%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/Deprecated/UnsafePriorityQueue.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -90,6 +90,7 @@ It is implemented using linked list. Peek = O(1), Enqueue = O(Log n), Dequeue = 
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Unity.Collections.INativeDisposable</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -118,7 +119,7 @@ It is implemented using linked list. Peek = O(1), Enqueue = O(Log n), Dequeue = 
   <h5 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NativeContainer]
-public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable where TValue : struct where TComparer : struct, IComparer&lt;TValue&gt;</code></pre>
+public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : INativeDisposable, IDisposable where TValue : struct where TComparer : struct, IComparer&lt;TValue&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,7 +149,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_System_Int32_Unity_Collections_Allocator__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.%23ctor(System.Int32%2CUnity.Collections.Allocator%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L93">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L95">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_System_Int32_Unity_Collections_Allocator__1_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.#ctor(System.Int32,Unity.Collections.Allocator,`1)">NativeLinkedPriorityQueue(Int32, Allocator, TComparer)</h4>
@@ -194,7 +195,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_Unity_Collections_Allocator__1_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.%23ctor(Unity.Collections.Allocator%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L85">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L87">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2__ctor_Unity_Collections_Allocator__1_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.#ctor(Unity.Collections.Allocator,`1)">NativeLinkedPriorityQueue(Allocator, TComparer)</h4>
@@ -236,7 +237,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L63">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L65">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Capacity_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Capacity*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Capacity" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Capacity">Capacity</h4>
@@ -268,7 +269,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L78">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L80">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsCreated_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.IsCreated*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsCreated" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.IsCreated">IsCreated</h4>
@@ -300,7 +301,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L42">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L44">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsEmpty_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.IsEmpty*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_IsEmpty" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.IsEmpty">IsEmpty</h4>
@@ -332,7 +333,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L48">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L50">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Length_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Length*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Length" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Length">Length</h4>
@@ -366,7 +367,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L182">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L184">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Clear_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Clear*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Clear" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Clear">Clear()</h4>
@@ -385,7 +386,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dequeue.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Dequeue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L156">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L158">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dequeue_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dequeue*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dequeue" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dequeue">Dequeue()</h4>
@@ -433,7 +434,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L193">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L195">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose">Dispose()</h4>
@@ -446,10 +447,61 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_Unity_Jobs_JobHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Dispose(Unity.Jobs.JobHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L215">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose*"></a>
+  <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_Unity_Jobs_JobHandle_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose(Unity.Jobs.JobHandle)">Dispose(JobHandle)</h4>
+  <div class="markdown level1 summary"><p>Creates and schedules a job that releases all resources (memory and safety handles) of this queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotBurstCompatible]
+public JobHandle Dispose(JobHandle inputDeps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><span class="parametername">inputDeps</span></td>
+        <td><p>The dependency for the new job.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><p>The handle of the new job. The job depends upon <code>inputDeps</code> and releases all resources (memory and safety handles) of this queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Enqueue__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Enqueue(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L117">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L119">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Enqueue_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Enqueue*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Enqueue__0__" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Enqueue(`0@)">Enqueue(TValue)</h4>
@@ -483,7 +535,7 @@ public struct NativeLinkedPriorityQueue&lt;TValue, TComparer&gt; : IDisposable w
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_EnqueueUnique__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.EnqueueUnique(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L131">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L133">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_EnqueueUnique_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.EnqueueUnique*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_EnqueueUnique__0__" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.EnqueueUnique(`0@)">EnqueueUnique(TValue)</h4>
@@ -534,7 +586,7 @@ Returns false if element already exists in queue.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_GetEnumerator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L209">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L243">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_GetEnumerator_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.GetEnumerator*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_GetEnumerator" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.GetEnumerator">GetEnumerator()</h4>
@@ -565,7 +617,7 @@ Returns false if element already exists in queue.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Peek.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.Peek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L143">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L145">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Peek_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Peek*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Peek" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Peek">Peek()</h4>
@@ -597,7 +649,7 @@ Returns false if element already exists in queue.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_ToArray_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.ToArray(Unity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L222">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L256">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_ToArray_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.ToArray*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_ToArray_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.ToArray(Unity.Collections.Allocator)">ToArray(Allocator)</h4>
@@ -647,7 +699,7 @@ Returns false if element already exists in queue.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2_TryDequeue__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602.TryDequeue(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L170">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L172">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_TryDequeue_" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.TryDequeue*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedPriorityQueue_2_TryDequeue__0__" data-uid="ProjectDawn.Collections.NativeLinkedPriorityQueue`2.TryDequeue(`0@)">TryDequeue(out TValue)</h4>
@@ -696,6 +748,9 @@ Returns false if element already exists in queue.</p>
 </div>
   <h3 id="implements">Implements</h3>
   <div>
+      <span class="xref">Unity.Collections.INativeDisposable</span>
+  </div>
+  <div>
       <span class="xref">System.IDisposable</span>
   </div>
 </article>
@@ -709,7 +764,7 @@ Returns false if element already exists in queue.</p>
                     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedPriorityQueue_2.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedPriorityQueue%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedPriorityQueue.cs/#L20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

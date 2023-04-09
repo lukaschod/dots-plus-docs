@@ -90,6 +90,7 @@ Linked list is implemented using double linked nodes, where each node knows its 
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Unity.Collections.INativeDisposable</span></div>
     <div><span class="xref">System.IDisposable</span></div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
@@ -120,7 +121,7 @@ Linked list is implemented using double linked nodes, where each node knows its 
   <h5 id="ProjectDawn_Collections_NativeLinkedList_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NativeContainer]
-public struct NativeLinkedList&lt;T&gt; : IDisposable, IEnumerable&lt;T&gt;, IEnumerable where T : struct</code></pre>
+public struct NativeLinkedList&lt;T&gt; : INativeDisposable, IDisposable, IEnumerable&lt;T&gt;, IEnumerable where T : struct</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,7 +149,7 @@ public struct NativeLinkedList&lt;T&gt; : IDisposable, IEnumerable&lt;T&gt;, IEn
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1__ctor_System_Int32_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.%23ctor(System.Int32%2CUnity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L175">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L177">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1__ctor_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1__ctor_System_Int32_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.#ctor(System.Int32,Unity.Collections.Allocator)">NativeLinkedList(Int32, Allocator)</h4>
@@ -188,7 +189,7 @@ public struct NativeLinkedList&lt;T&gt; : IDisposable, IEnumerable&lt;T&gt;, IEn
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1__ctor_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.%23ctor(Unity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L168">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L170">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1__ctor_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1__ctor_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.#ctor(Unity.Collections.Allocator)">NativeLinkedList(Allocator)</h4>
@@ -224,7 +225,7 @@ public struct NativeLinkedList&lt;T&gt; : IDisposable, IEnumerable&lt;T&gt;, IEn
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Begin.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Begin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L105">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L107">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Begin_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Begin*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Begin" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Begin">Begin</h4>
@@ -255,7 +256,7 @@ public struct NativeLinkedList&lt;T&gt; : IDisposable, IEnumerable&lt;T&gt;, IEn
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_BeginRO.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.BeginRO%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L136">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L138">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_BeginRO_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.BeginRO*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_BeginRO" data-uid="ProjectDawn.Collections.NativeLinkedList`1.BeginRO">BeginRO</h4>
@@ -287,7 +288,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L85">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L87">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Capacity_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Capacity*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Capacity" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Capacity">Capacity</h4>
@@ -319,7 +320,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_End.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.End%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L121">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L123">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_End_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.End*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_End" data-uid="ProjectDawn.Collections.NativeLinkedList`1.End">End</h4>
@@ -352,7 +353,7 @@ It does not point to any element, and thus shall not be dereferenced.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_EndRO.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.EndRO%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L153">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L155">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_EndRO_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.EndRO*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_EndRO" data-uid="ProjectDawn.Collections.NativeLinkedList`1.EndRO">EndRO</h4>
@@ -386,7 +387,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L100">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L102">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_IsCreated_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.IsCreated*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_IsCreated" data-uid="ProjectDawn.Collections.NativeLinkedList`1.IsCreated">IsCreated</h4>
@@ -418,7 +419,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L70">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L72">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Length_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Length*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Length" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Length">Length</h4>
@@ -452,7 +453,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Add__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Add(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L201">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L203">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Add_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Add*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Add__0__" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Add(`0@)">Add(T)</h4>
@@ -504,7 +505,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L243">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L245">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Clear_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Clear*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Clear" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Clear">Clear()</h4>
@@ -523,7 +524,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L254">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L256">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Dispose_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Dispose*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Dispose" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Dispose">Dispose()</h4>
@@ -536,10 +537,61 @@ Read only iterator.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Dispose_Unity_Jobs_JobHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Dispose(Unity.Jobs.JobHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L276">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_NativeLinkedList_1_Dispose_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Dispose*"></a>
+  <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Dispose_Unity_Jobs_JobHandle_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Dispose(Unity.Jobs.JobHandle)">Dispose(JobHandle)</h4>
+  <div class="markdown level1 summary"><p>Creates and schedules a job that releases all resources (memory and safety handles) of this linked list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotBurstCompatible]
+public JobHandle Dispose(JobHandle inputDeps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><span class="parametername">inputDeps</span></td>
+        <td><p>The dependency for the new job.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><p>The handle of the new job. The job depends upon <code>inputDeps</code> and releases all resources (memory and safety handles) of this linked list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_GetEnumerator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L299">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L333">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_GetEnumerator_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.GetEnumerator*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_GetEnumerator" data-uid="ProjectDawn.Collections.NativeLinkedList`1.GetEnumerator">GetEnumerator()</h4>
@@ -570,7 +622,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Insert_ProjectDawn_Collections_NativeLinkedList__0__Iterator___0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Insert(ProjectDawn.Collections.NativeLinkedList%7B%600%7D.Iterator%40%2C%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L218">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L220">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Insert_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Insert*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Insert_ProjectDawn_Collections_NativeLinkedList__0__Iterator___0__" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Insert(ProjectDawn.Collections.NativeLinkedList{`0}.Iterator@,`0@)">Insert(NativeLinkedList&lt;T&gt;.Iterator, T)</h4>
@@ -628,7 +680,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_RemoveAt_ProjectDawn_Collections_NativeLinkedList__0__Iterator__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.RemoveAt(ProjectDawn.Collections.NativeLinkedList%7B%600%7D.Iterator%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L231">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L233">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_RemoveAt_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.RemoveAt*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_RemoveAt_ProjectDawn_Collections_NativeLinkedList__0__Iterator__" data-uid="ProjectDawn.Collections.NativeLinkedList`1.RemoveAt(ProjectDawn.Collections.NativeLinkedList{`0}.Iterator@)">RemoveAt(NativeLinkedList&lt;T&gt;.Iterator)</h4>
@@ -662,7 +714,7 @@ Read only iterator.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_Sort__1_ProjectDawn_Collections_NativeLinkedList__0__Iterator__ProjectDawn_Collections_NativeLinkedList__0__Iterator____0_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.Sort%60%601(ProjectDawn.Collections.NativeLinkedList%7B%600%7D.Iterator%40%2CProjectDawn.Collections.NativeLinkedList%7B%600%7D.Iterator%40%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L288">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L322">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_Sort_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Sort*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_Sort__1_ProjectDawn_Collections_NativeLinkedList__0__Iterator__ProjectDawn_Collections_NativeLinkedList__0__Iterator____0_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.Sort``1(ProjectDawn.Collections.NativeLinkedList{`0}.Iterator@,ProjectDawn.Collections.NativeLinkedList{`0}.Iterator@,``0)">Sort&lt;U&gt;(ref NativeLinkedList&lt;T&gt;.Iterator, ref NativeLinkedList&lt;T&gt;.Iterator, U)</h4>
@@ -726,7 +778,7 @@ Uses insertion sort algorithm.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_ToArray_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.ToArray(Unity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L272">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L306">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_ToArray_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.ToArray*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_ToArray_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.ToArray(Unity.Collections.Allocator)">ToArray(Allocator)</h4>
@@ -778,7 +830,7 @@ Uses insertion sort algorithm.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L307">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L341">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeLinkedList_1_System_Collections_IEnumerable_GetEnumerator_" data-uid="ProjectDawn.Collections.NativeLinkedList`1.System#Collections#IEnumerable#GetEnumerator*"></a>
   <h4 id="ProjectDawn_Collections_NativeLinkedList_1_System_Collections_IEnumerable_GetEnumerator" data-uid="ProjectDawn.Collections.NativeLinkedList`1.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
@@ -804,6 +856,9 @@ Uses insertion sort algorithm.</p>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Unity.Collections.INativeDisposable</span>
+  </div>
   <div>
       <span class="xref">System.IDisposable</span>
   </div>
@@ -831,7 +886,7 @@ Uses insertion sort algorithm.</p>
                     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeLinkedList_1.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeLinkedList%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L45" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeLinkedList.cs/#L47" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

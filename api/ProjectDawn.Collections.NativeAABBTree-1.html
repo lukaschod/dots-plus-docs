@@ -93,6 +93,7 @@ Based on <a href="https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf">http
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Unity.Collections.INativeDisposable</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -121,7 +122,7 @@ Based on <a href="https://box2d.org/files/ErinCatto_DynamicBVH_GDC2019.pdf">http
   <h5 id="ProjectDawn_Collections_NativeAABBTree_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NativeContainer]
-public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceArea&lt;T&gt;, IUnion&lt;T&gt;</code></pre>
+public struct NativeAABBTree&lt;T&gt; : INativeDisposable, IDisposable where T : struct, ISurfaceArea&lt;T&gt;, IUnion&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,7 +147,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1__ctor_System_Int32_Unity_Collections_Allocator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.%23ctor(System.Int32%2CUnity.Collections.Allocator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L99">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L101">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1__ctor_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1__ctor_System_Int32_Unity_Collections_Allocator_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.#ctor(System.Int32,Unity.Collections.Allocator)">NativeAABBTree(Int32, Allocator)</h4>
@@ -188,7 +189,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L63">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L65">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Capacity_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Capacity*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Capacity" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Capacity">Capacity</h4>
@@ -220,7 +221,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L78">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L80">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_IsCreated_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.IsCreated*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_IsCreated" data-uid="ProjectDawn.Collections.NativeAABBTree`1.IsCreated">IsCreated</h4>
@@ -252,7 +253,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L42">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L44">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_IsEmpty_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.IsEmpty*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_IsEmpty" data-uid="ProjectDawn.Collections.NativeAABBTree`1.IsEmpty">IsEmpty</h4>
@@ -284,7 +285,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L48">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L50">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Length_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Length*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Length" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Length">Length</h4>
@@ -316,7 +317,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Root.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Root%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L83">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L85">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Root_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Root*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Root" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Root">Root</h4>
@@ -349,7 +350,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Add__0_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Add(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L134">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L136">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Add_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Add*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Add__0_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Add(`0)">Add(T)</h4>
@@ -398,7 +399,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Build_Unity_Collections_NativeArray__0___.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Build(Unity.Collections.NativeArray%7B%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L122">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L124">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Build_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Build*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Build_Unity_Collections_NativeArray__0___" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Build(Unity.Collections.NativeArray{`0}@)">Build(NativeArray&lt;T&gt;)</h4>
@@ -431,7 +432,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L223">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L225">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Clear_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Clear*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Clear" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Clear">Clear()</h4>
@@ -450,7 +451,7 @@ public struct NativeAABBTree&lt;T&gt; : IDisposable where T : struct, ISurfaceAr
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Cost.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Cost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L175">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L177">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Cost_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Cost*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Cost" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Cost">Cost()</h4>
@@ -482,7 +483,7 @@ The lower the number is, the more optimal a tree will be.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_CountLeafs.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.CountLeafs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L187">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L189">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_CountLeafs_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.CountLeafs*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_CountLeafs" data-uid="ProjectDawn.Collections.NativeAABBTree`1.CountLeafs">CountLeafs()</h4>
@@ -514,7 +515,7 @@ The lower the number is, the more optimal a tree will be.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L234">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L236">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_Dispose_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Dispose*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Dispose" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Dispose">Dispose()</h4>
@@ -527,10 +528,61 @@ The lower the number is, the more optimal a tree will be.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_Dispose_Unity_Jobs_JobHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.Dispose(Unity.Jobs.JobHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L256">View Source</a>
+  </span>
+  <a id="ProjectDawn_Collections_NativeAABBTree_1_Dispose_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Dispose*"></a>
+  <h4 id="ProjectDawn_Collections_NativeAABBTree_1_Dispose_Unity_Jobs_JobHandle_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.Dispose(Unity.Jobs.JobHandle)">Dispose(JobHandle)</h4>
+  <div class="markdown level1 summary"><p>Creates and schedules a job that releases all resources (memory and safety handles) of this aabb tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotBurstCompatible]
+public JobHandle Dispose(JobHandle inputDeps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><span class="parametername">inputDeps</span></td>
+        <td><p>The dependency for the new job.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><p>The handle of the new job. The job depends upon <code>inputDeps</code> and releases all resources (memory and safety handles) of this aabb tree.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_FindOverlap__1___0_Unity_Collections_NativeList__0___.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.FindOverlap%60%601(%60%600%2CUnity.Collections.NativeList%7B%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L162">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L164">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_FindOverlap_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.FindOverlap*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_FindOverlap__1___0_Unity_Collections_NativeList__0___" data-uid="ProjectDawn.Collections.NativeAABBTree`1.FindOverlap``1(``0,Unity.Collections.NativeList{`0}@)">FindOverlap&lt;U&gt;(U, ref NativeList&lt;T&gt;)</h4>
@@ -602,7 +654,7 @@ The lower the number is, the more optimal a tree will be.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_GetBalancedTreeFactor.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.GetBalancedTreeFactor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L211">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L213">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_GetBalancedTreeFactor_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.GetBalancedTreeFactor*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_GetBalancedTreeFactor" data-uid="ProjectDawn.Collections.NativeAABBTree`1.GetBalancedTreeFactor">GetBalancedTreeFactor()</h4>
@@ -635,7 +687,7 @@ This value can be used to decide if tree needs balancing.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_GetDepth.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.GetDepth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L198">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L200">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_GetDepth_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.GetDepth*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_GetDepth" data-uid="ProjectDawn.Collections.NativeAABBTree`1.GetDepth">GetDepth()</h4>
@@ -666,7 +718,7 @@ This value can be used to decide if tree needs balancing.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1_RemoveAt_ProjectDawn_Collections_NativeAABBTree__0__Iterator_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601.RemoveAt(ProjectDawn.Collections.NativeAABBTree%7B%600%7D.Iterator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L147">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L149">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeAABBTree_1_RemoveAt_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.RemoveAt*"></a>
   <h4 id="ProjectDawn_Collections_NativeAABBTree_1_RemoveAt_ProjectDawn_Collections_NativeAABBTree__0__Iterator_" data-uid="ProjectDawn.Collections.NativeAABBTree`1.RemoveAt(ProjectDawn.Collections.NativeAABBTree{`0}.Iterator)">RemoveAt(NativeAABBTree&lt;T&gt;.Iterator)</h4>
@@ -697,6 +749,9 @@ This value can be used to decide if tree needs balancing.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <span class="xref">Unity.Collections.INativeDisposable</span>
+  </div>
+  <div>
       <span class="xref">System.IDisposable</span>
   </div>
 </article>
@@ -710,7 +765,7 @@ This value can be used to decide if tree needs balancing.</p>
                     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeAABBTree_1.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeAABBTree%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeAABBTree.cs/#L21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

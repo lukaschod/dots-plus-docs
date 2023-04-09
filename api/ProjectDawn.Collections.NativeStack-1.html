@@ -89,6 +89,7 @@ Limited version of <see cref="!:NativeList"></see> that only operates with the l
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Unity.Collections.INativeDisposable</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -117,7 +118,7 @@ Limited version of <see cref="!:NativeList"></see> that only operates with the l
   <h5 id="ProjectDawn_Collections_NativeStack_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NativeContainer]
-public struct NativeStack&lt;T&gt; : IDisposable where T : struct</code></pre>
+public struct NativeStack&lt;T&gt; : INativeDisposable, IDisposable where T : struct</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,7 +143,7 @@ public struct NativeStack&lt;T&gt; : IDisposable where T : struct</code></pre>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1__ctor_System_Int32_Unity_Collections_Allocator_Unity_Collections_NativeArrayOptions_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.%23ctor(System.Int32%2CUnity.Collections.Allocator%2CUnity.Collections.NativeArrayOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L113">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L114">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1__ctor_" data-uid="ProjectDawn.Collections.NativeStack`1.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1__ctor_System_Int32_Unity_Collections_Allocator_Unity_Collections_NativeArrayOptions_" data-uid="ProjectDawn.Collections.NativeStack`1.#ctor(System.Int32,Unity.Collections.Allocator,Unity.Collections.NativeArrayOptions)">NativeStack(Int32, Allocator, NativeArrayOptions)</h4>
@@ -192,7 +193,7 @@ sufficient capacity up front.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1__ctor_Unity_Collections_Allocator_Unity_Collections_NativeArrayOptions_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.%23ctor(Unity.Collections.Allocator%2CUnity.Collections.NativeArrayOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L103">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L104">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1__ctor_" data-uid="ProjectDawn.Collections.NativeStack`1.#ctor*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1__ctor_Unity_Collections_Allocator_Unity_Collections_NativeArrayOptions_" data-uid="ProjectDawn.Collections.NativeStack`1.#ctor(Unity.Collections.Allocator,Unity.Collections.NativeArrayOptions)">NativeStack(Allocator, NativeArrayOptions)</h4>
@@ -234,7 +235,7 @@ sufficient capacity up front.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Capacity.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L70">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L71">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Capacity_" data-uid="ProjectDawn.Collections.NativeStack`1.Capacity*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Capacity" data-uid="ProjectDawn.Collections.NativeStack`1.Capacity">Capacity</h4>
@@ -266,7 +267,7 @@ sufficient capacity up front.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_IsCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.IsCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L96">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L97">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_IsCreated_" data-uid="ProjectDawn.Collections.NativeStack`1.IsCreated*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_IsCreated" data-uid="ProjectDawn.Collections.NativeStack`1.IsCreated">IsCreated</h4>
@@ -302,7 +303,7 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_IsEmpty.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L40">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L41">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_IsEmpty_" data-uid="ProjectDawn.Collections.NativeStack`1.IsEmpty*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_IsEmpty" data-uid="ProjectDawn.Collections.NativeStack`1.IsEmpty">IsEmpty</h4>
@@ -334,7 +335,7 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Length.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L55">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L56">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Length_" data-uid="ProjectDawn.Collections.NativeStack`1.Length*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Length" data-uid="ProjectDawn.Collections.NativeStack`1.Length">Length</h4>
@@ -368,7 +369,7 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_AsParallelWriter.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.AsParallelWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L228">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L244">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_AsParallelWriter_" data-uid="ProjectDawn.Collections.NativeStack`1.AsParallelWriter*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_AsParallelWriter" data-uid="ProjectDawn.Collections.NativeStack`1.AsParallelWriter">AsParallelWriter()</h4>
@@ -398,7 +399,7 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Clear.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L168">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L184">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Clear_" data-uid="ProjectDawn.Collections.NativeStack`1.Clear*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Clear" data-uid="ProjectDawn.Collections.NativeStack`1.Clear">Clear()</h4>
@@ -417,7 +418,7 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Dispose.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L135">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L136">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Dispose_" data-uid="ProjectDawn.Collections.NativeStack`1.Dispose*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Dispose" data-uid="ProjectDawn.Collections.NativeStack`1.Dispose">Dispose()</h4>
@@ -433,16 +434,17 @@ at least an allocation type to construct a usable container.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Dispose_Unity_Jobs_JobHandle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Dispose(Unity.Jobs.JobHandle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L159">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L155">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Dispose_" data-uid="ProjectDawn.Collections.NativeStack`1.Dispose*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Dispose_Unity_Jobs_JobHandle_" data-uid="ProjectDawn.Collections.NativeStack`1.Dispose(Unity.Jobs.JobHandle)">Dispose(JobHandle)</h4>
-  <div class="markdown level1 summary"><p>Safely disposes of this container and deallocates its memory when the jobs that use it have completed.</p>
+  <div class="markdown level1 summary"><p>Creates and schedules a job that releases all resources (memory and safety handles) of this stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JobHandle Dispose(JobHandle inputDeps)</code></pre>
+    <pre><code class="lang-csharp hljs">[NotBurstCompatible]
+public JobHandle Dispose(JobHandle inputDeps)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -457,7 +459,7 @@ at least an allocation type to construct a usable container.</p>
       <tr>
         <td><span class="xref">Unity.Jobs.JobHandle</span></td>
         <td><span class="parametername">inputDeps</span></td>
-        <td><p>The job handle or handles for any scheduled jobs that use this container.</p>
+        <td><p>The dependency for the new job.</p>
 </td>
       </tr>
     </tbody>
@@ -473,25 +475,17 @@ at least an allocation type to construct a usable container.</p>
     <tbody>
       <tr>
         <td><span class="xref">Unity.Jobs.JobHandle</span></td>
-        <td><p>A new job handle containing the prior handles as well as the handle for the job that deletes
-the container.</p>
+        <td><p>The handle of the new job. The job depends upon <code>inputDeps</code> and releases all resources (memory and safety handles) of this stack.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="ProjectDawn_Collections_NativeStack_1_Dispose_Unity_Jobs_JobHandle__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>You can call this function dispose of the container immediately after scheduling the job. Pass
-the <a href="https://docs.unity3d.com/ScriptReference/Unity.Jobs.JobHandle.html">JobHandle</a> returned by
-the <a href="https://docs.unity3d.com/ScriptReference/Unity.Jobs.IJobExtensions.Schedule.html">Job.Schedule</a>
-method using the <code>jobHandle</code> parameter so the job scheduler can dispose the container after all jobs
-using it have run.</p>
-</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Pop.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Pop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L206">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L222">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Pop_" data-uid="ProjectDawn.Collections.NativeStack`1.Pop*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Pop" data-uid="ProjectDawn.Collections.NativeStack`1.Pop">Pop()</h4>
@@ -522,7 +516,7 @@ using it have run.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_Push__0_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.Push(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L195">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L211">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_Push_" data-uid="ProjectDawn.Collections.NativeStack`1.Push*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_Push__0_" data-uid="ProjectDawn.Collections.NativeStack`1.Push(`0)">Push(T)</h4>
@@ -556,7 +550,7 @@ using it have run.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_PushNoResize__0_.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.PushNoResize(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L183">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L199">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_PushNoResize_" data-uid="ProjectDawn.Collections.NativeStack`1.PushNoResize*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_PushNoResize__0_" data-uid="ProjectDawn.Collections.NativeStack`1.PushNoResize(`0)">PushNoResize(T)</h4>
@@ -593,7 +587,7 @@ using it have run.</p>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Collections_NativeStack_1_TryPop__0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Collections.NativeStack%601.TryPop(%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L220">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Collections/NativeStack.cs/#L236">View Source</a>
   </span>
   <a id="ProjectDawn_Collections_NativeStack_1_TryPop_" data-uid="ProjectDawn.Collections.NativeStack`1.TryPop*"></a>
   <h4 id="ProjectDawn_Collections_NativeStack_1_TryPop__0__" data-uid="ProjectDawn.Collections.NativeStack`1.TryPop(`0@)">TryPop(out T)</h4>
@@ -642,6 +636,9 @@ using it have run.</p>
   <div class="markdown level1 remarks"><p>Does nothing if the queue is empty.</p>
 </div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Unity.Collections.INativeDisposable</span>
+  </div>
   <div>
       <span class="xref">System.IDisposable</span>
   </div>

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Lukas/Source/DotsPlus/Packages/com.projectdawn.dotsplus/Documentation~/.docfx_project",
+  "source_base_path": "C:/Users/Lukas/Source/AssetStore/DotsPlus/Temp/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.CollectionChecks.html",
-          "hash": "gg6D1m3bILjF/imUQGGU1Q=="
+          "hash": "tz2lqnYEitPHXAyO5HgIiQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.Iterator.html",
-          "hash": "T4Srwk02nyKlfUmz8TwnSw=="
+          "hash": "Zso746ED8JzkipkEPAkfBA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeAABBTree-1.html",
-          "hash": "hk0JABCMi9rPW9/8dMt+Gg=="
+          "hash": "qhUFeMdN7NFDlRca9YOCyw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeHeapPriorityQueue-2.html",
-          "hash": "2g03auCCcvkmMS+qHo+VuQ=="
+          "hash": "jr32m/QZ+tdz5hxLWzjSVg=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.Iterator.html",
-          "hash": "Ncgu6BjVyg+oq/K6VBzyKg=="
+          "hash": "mqEhS4GNcJ9E17bjEXWMvA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeKdTree-2.html",
-          "hash": "sucJN5oMB2w0StBj8ZscWg=="
+          "hash": "6su8e5bbJpcts9U0WutsMg=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.Iterator.html",
-          "hash": "AP2ESwmRW0XcRHxDPO53sw=="
+          "hash": "Fr1669x04PqTmn8IvrfLSA=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeLinkedList-1.html",
-          "hash": "3pP+XLQgmf1Qu/J19vC3IA=="
+          "hash": "56Qx94Es5KT0Ln1W77kMbQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.DefaultComparer-1.html",
-          "hash": "BogUHlq7KIa3rbHnVIo+Gg=="
+          "hash": "0n/4SbacDRNHo1kw1KjqWw=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeLinkedListSort.html",
-          "hash": "L4bOC+KkUKyUCxlWmaNzsA=="
+          "hash": "e5GmxMGAtz23a/4crX1EYw=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeLinkedPriorityQueue-2.html",
-          "hash": "Tcdwbx7ggg/iuWF++0W3iA=="
+          "hash": "2dF56Ny6UjqSiAMq10z+5g=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeStack-1.ParallelWriter.html",
-          "hash": "29SH7TVeOaSLl/JJpD4awg=="
+          "hash": "wTOZN+M3A6pejkoqDLvWNw=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeStack-1.html",
-          "hash": "S4hOQNURiaNUXmbGkb6xGQ=="
+          "hash": "Vg1+1ztNYGULTT7iPHK78w=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Collections.NativeStructureList.html",
-          "hash": "MqUtFT3W7YGwCkvHVTbaWA=="
+          "hash": "1n/218un6PPby1dNdlofoA=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Geometry3D.ShapeUtility.html",
-          "hash": "W2Ij21WvLhgnxekKKfhIgA=="
+          "hash": "PrsM0QLxkDtlTWzzCkP2Wg=="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Mathematics.fastmath.html",
-          "hash": "BD61NVpdZOQvIQDFz4rZFA=="
+          "hash": "i0O95XHGhqqrdoIhT/9vMw=="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Mathematics.math2.html",
-          "hash": "jnuml/3qnSG2EfhpkZfaFA=="
+          "hash": "NSSykWPT1KQOWJyMC92dbQ=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog.html",
-          "hash": "9KDWlgVTydePPdB5JKlrng=="
+          "hash": "GrkXkrmNf927CHKZuTLpbg=="
         }
       },
       "is_incremental": false,

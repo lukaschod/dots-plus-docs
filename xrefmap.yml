@@ -3227,6 +3227,14 @@ references:
   fullName.vb: ProjectDawn.Collections.NativeAABBTree(Of T).Dispose()
   nameWithType: NativeAABBTree<T>.Dispose()
   nameWithType.vb: NativeAABBTree(Of T).Dispose()
+- uid: ProjectDawn.Collections.NativeAABBTree`1.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Collections.NativeAABBTree-1.html#ProjectDawn_Collections_NativeAABBTree_1_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Collections.NativeAABBTree`1.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Collections.NativeAABBTree<T>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Collections.NativeAABBTree(Of T).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: NativeAABBTree<T>.Dispose(JobHandle)
+  nameWithType.vb: NativeAABBTree(Of T).Dispose(JobHandle)
 - uid: ProjectDawn.Collections.NativeAABBTree`1.Dispose*
   name: Dispose
   href: api/ProjectDawn.Collections.NativeAABBTree-1.html#ProjectDawn_Collections_NativeAABBTree_1_Dispose_
@@ -3667,6 +3675,14 @@ references:
   fullName.vb: ProjectDawn.Collections.NativeHeapPriorityQueue(Of TKey, TValue).Dispose()
   nameWithType: NativeHeapPriorityQueue<TKey, TValue>.Dispose()
   nameWithType.vb: NativeHeapPriorityQueue(Of TKey, TValue).Dispose()
+- uid: ProjectDawn.Collections.NativeHeapPriorityQueue`2.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Collections.NativeHeapPriorityQueue-2.html#ProjectDawn_Collections_NativeHeapPriorityQueue_2_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Collections.NativeHeapPriorityQueue`2.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Collections.NativeHeapPriorityQueue<TKey, TValue>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Collections.NativeHeapPriorityQueue(Of TKey, TValue).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: NativeHeapPriorityQueue<TKey, TValue>.Dispose(JobHandle)
+  nameWithType.vb: NativeHeapPriorityQueue(Of TKey, TValue).Dispose(JobHandle)
 - uid: ProjectDawn.Collections.NativeHeapPriorityQueue`2.Dispose*
   name: Dispose
   href: api/ProjectDawn.Collections.NativeHeapPriorityQueue-2.html#ProjectDawn_Collections_NativeHeapPriorityQueue_2_Dispose_
@@ -3925,6 +3941,14 @@ references:
   fullName.vb: ProjectDawn.Collections.NativeKdTree(Of TValue, TComparer).Dispose()
   nameWithType: NativeKdTree<TValue, TComparer>.Dispose()
   nameWithType.vb: NativeKdTree(Of TValue, TComparer).Dispose()
+- uid: ProjectDawn.Collections.NativeKdTree`2.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Collections.NativeKdTree-2.html#ProjectDawn_Collections_NativeKdTree_2_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Collections.NativeKdTree`2.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Collections.NativeKdTree<TValue, TComparer>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Collections.NativeKdTree(Of TValue, TComparer).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: NativeKdTree<TValue, TComparer>.Dispose(JobHandle)
+  nameWithType.vb: NativeKdTree(Of TValue, TComparer).Dispose(JobHandle)
 - uid: ProjectDawn.Collections.NativeKdTree`2.Dispose*
   name: Dispose
   href: api/ProjectDawn.Collections.NativeKdTree-2.html#ProjectDawn_Collections_NativeKdTree_2_Dispose_
@@ -4402,6 +4426,14 @@ references:
   fullName.vb: ProjectDawn.Collections.NativeLinkedList(Of T).Dispose()
   nameWithType: NativeLinkedList<T>.Dispose()
   nameWithType.vb: NativeLinkedList(Of T).Dispose()
+- uid: ProjectDawn.Collections.NativeLinkedList`1.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Collections.NativeLinkedList-1.html#ProjectDawn_Collections_NativeLinkedList_1_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Collections.NativeLinkedList`1.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Collections.NativeLinkedList<T>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Collections.NativeLinkedList(Of T).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: NativeLinkedList<T>.Dispose(JobHandle)
+  nameWithType.vb: NativeLinkedList(Of T).Dispose(JobHandle)
 - uid: ProjectDawn.Collections.NativeLinkedList`1.Dispose*
   name: Dispose
   href: api/ProjectDawn.Collections.NativeLinkedList-1.html#ProjectDawn_Collections_NativeLinkedList_1_Dispose_
@@ -4959,6 +4991,14 @@ references:
   fullName.vb: ProjectDawn.Collections.NativeLinkedPriorityQueue(Of TValue, TComparer).Dispose()
   nameWithType: NativeLinkedPriorityQueue<TValue, TComparer>.Dispose()
   nameWithType.vb: NativeLinkedPriorityQueue(Of TValue, TComparer).Dispose()
+- uid: ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose(Unity.Jobs.JobHandle)
+  name: Dispose(JobHandle)
+  href: api/ProjectDawn.Collections.NativeLinkedPriorityQueue-2.html#ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_Unity_Jobs_JobHandle_
+  commentId: M:ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose(Unity.Jobs.JobHandle)
+  fullName: ProjectDawn.Collections.NativeLinkedPriorityQueue<TValue, TComparer>.Dispose(Unity.Jobs.JobHandle)
+  fullName.vb: ProjectDawn.Collections.NativeLinkedPriorityQueue(Of TValue, TComparer).Dispose(Unity.Jobs.JobHandle)
+  nameWithType: NativeLinkedPriorityQueue<TValue, TComparer>.Dispose(JobHandle)
+  nameWithType.vb: NativeLinkedPriorityQueue(Of TValue, TComparer).Dispose(JobHandle)
 - uid: ProjectDawn.Collections.NativeLinkedPriorityQueue`2.Dispose*
   name: Dispose
   href: api/ProjectDawn.Collections.NativeLinkedPriorityQueue-2.html#ProjectDawn_Collections_NativeLinkedPriorityQueue_2_Dispose_
@@ -11754,6 +11794,12 @@ references:
   commentId: T:ProjectDawn.Mathematics.fastmath
   fullName: ProjectDawn.Mathematics.fastmath
   nameWithType: fastmath
+- uid: ProjectDawn.Mathematics.fastmath.cos(System.Double)
+  name: cos(Double)
+  href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_cos_System_Double_
+  commentId: M:ProjectDawn.Mathematics.fastmath.cos(System.Double)
+  fullName: ProjectDawn.Mathematics.fastmath.cos(System.Double)
+  nameWithType: fastmath.cos(Double)
 - uid: ProjectDawn.Mathematics.fastmath.cos(System.Single)
   name: cos(Single)
   href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_cos_System_Single_
@@ -11767,6 +11813,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.fastmath.cos
   nameWithType: fastmath.cos
+- uid: ProjectDawn.Mathematics.fastmath.rsqrt(System.Double)
+  name: rsqrt(Double)
+  href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_rsqrt_System_Double_
+  commentId: M:ProjectDawn.Mathematics.fastmath.rsqrt(System.Double)
+  fullName: ProjectDawn.Mathematics.fastmath.rsqrt(System.Double)
+  nameWithType: fastmath.rsqrt(Double)
 - uid: ProjectDawn.Mathematics.fastmath.rsqrt(System.Single)
   name: rsqrt(Single)
   href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_rsqrt_System_Single_
@@ -11780,6 +11832,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.fastmath.rsqrt
   nameWithType: fastmath.rsqrt
+- uid: ProjectDawn.Mathematics.fastmath.sin(System.Double)
+  name: sin(Double)
+  href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_sin_System_Double_
+  commentId: M:ProjectDawn.Mathematics.fastmath.sin(System.Double)
+  fullName: ProjectDawn.Mathematics.fastmath.sin(System.Double)
+  nameWithType: fastmath.sin(Double)
 - uid: ProjectDawn.Mathematics.fastmath.sin(System.Single)
   name: sin(Single)
   href: api/ProjectDawn.Mathematics.fastmath.html#ProjectDawn_Mathematics_fastmath_sin_System_Single_
@@ -11799,6 +11857,18 @@ references:
   commentId: T:ProjectDawn.Mathematics.math2
   fullName: ProjectDawn.Mathematics.math2
   nameWithType: math2
+- uid: ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2)
+  name: angle(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_angle_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2)
+  nameWithType: math2.angle(double2)
+- uid: ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: angle(double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_angle_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.angle(double2, double2)
 - uid: ProjectDawn.Mathematics.math2.angle(Unity.Mathematics.float2)
   name: angle(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_angle_Unity_Mathematics_float2_
@@ -11818,6 +11888,38 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.angle
   nameWithType: math2.angle
+- uid: ProjectDawn.Mathematics.math2.asdouble3(Unity.Mathematics.double2)
+  name: asdouble3(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asdouble3_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.asdouble3(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.asdouble3(Unity.Mathematics.double2)
+  nameWithType: math2.asdouble3(double2)
+- uid: ProjectDawn.Mathematics.math2.asdouble3*
+  name: asdouble3
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asdouble3_
+  commentId: Overload:ProjectDawn.Mathematics.math2.asdouble3
+  isSpec: "True"
+  fullName: ProjectDawn.Mathematics.math2.asdouble3
+  nameWithType: math2.asdouble3
+- uid: ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double2)
+  name: asdouble4(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asdouble4_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double2)
+  nameWithType: math2.asdouble4(double2)
+- uid: ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double3)
+  name: asdouble4(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asdouble4_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.asdouble4(Unity.Mathematics.double3)
+  nameWithType: math2.asdouble4(double3)
+- uid: ProjectDawn.Mathematics.math2.asdouble4*
+  name: asdouble4
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asdouble4_
+  commentId: Overload:ProjectDawn.Mathematics.math2.asdouble4
+  isSpec: "True"
+  fullName: ProjectDawn.Mathematics.math2.asdouble4
+  nameWithType: math2.asdouble4
 - uid: ProjectDawn.Mathematics.math2.asfloat(UnityEngine.Vector2)
   name: asfloat(Vector2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asfloat_UnityEngine_Vector2_
@@ -11875,12 +11977,75 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.asfloat4
   nameWithType: math2.asfloat4
+- uid: ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector2Int)
+  name: asint(Vector2Int)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint_UnityEngine_Vector2Int_
+  commentId: M:ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector2Int)
+  fullName: ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector2Int)
+  nameWithType: math2.asint(Vector2Int)
+- uid: ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector3Int)
+  name: asint(Vector3Int)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint_UnityEngine_Vector3Int_
+  commentId: M:ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector3Int)
+  fullName: ProjectDawn.Mathematics.math2.asint(UnityEngine.Vector3Int)
+  nameWithType: math2.asint(Vector3Int)
+- uid: ProjectDawn.Mathematics.math2.asint*
+  name: asint
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint_
+  commentId: Overload:ProjectDawn.Mathematics.math2.asint
+  isSpec: "True"
+  fullName: ProjectDawn.Mathematics.math2.asint
+  nameWithType: math2.asint
+- uid: ProjectDawn.Mathematics.math2.asint3(Unity.Mathematics.int2)
+  name: asint3(int2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint3_Unity_Mathematics_int2_
+  commentId: M:ProjectDawn.Mathematics.math2.asint3(Unity.Mathematics.int2)
+  fullName: ProjectDawn.Mathematics.math2.asint3(Unity.Mathematics.int2)
+  nameWithType: math2.asint3(int2)
+- uid: ProjectDawn.Mathematics.math2.asint3*
+  name: asint3
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint3_
+  commentId: Overload:ProjectDawn.Mathematics.math2.asint3
+  isSpec: "True"
+  fullName: ProjectDawn.Mathematics.math2.asint3
+  nameWithType: math2.asint3
+- uid: ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int2)
+  name: asint4(int2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint4_Unity_Mathematics_int2_
+  commentId: M:ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int2)
+  fullName: ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int2)
+  nameWithType: math2.asint4(int2)
+- uid: ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int3)
+  name: asint4(int3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint4_Unity_Mathematics_int3_
+  commentId: M:ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int3)
+  fullName: ProjectDawn.Mathematics.math2.asint4(Unity.Mathematics.int3)
+  nameWithType: math2.asint4(int3)
+- uid: ProjectDawn.Mathematics.math2.asint4*
+  name: asint4
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asint4_
+  commentId: Overload:ProjectDawn.Mathematics.math2.asint4
+  isSpec: "True"
+  fullName: ProjectDawn.Mathematics.math2.asint4
+  nameWithType: math2.asint4
+- uid: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.double2)
+  name: asvector3(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector3_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.double2)
+  nameWithType: math2.asvector3(double2)
 - uid: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.float2)
   name: asvector3(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector3_Unity_Mathematics_float2_
   commentId: M:ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.float2)
   fullName: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.float2)
   nameWithType: math2.asvector3(float2)
+- uid: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.int2)
+  name: asvector3(int2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector3_Unity_Mathematics_int2_
+  commentId: M:ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.int2)
+  fullName: ProjectDawn.Mathematics.math2.asvector3(Unity.Mathematics.int2)
+  nameWithType: math2.asvector3(int2)
 - uid: ProjectDawn.Mathematics.math2.asvector3*
   name: asvector3
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector3_
@@ -11888,6 +12053,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.asvector3
   nameWithType: math2.asvector3
+- uid: ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double2)
+  name: asvector4(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector4_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double2)
+  nameWithType: math2.asvector4(double2)
+- uid: ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double3)
+  name: asvector4(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector4_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.double3)
+  nameWithType: math2.asvector4(double3)
 - uid: ProjectDawn.Mathematics.math2.asvector4(Unity.Mathematics.float2)
   name: asvector4(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_asvector4_Unity_Mathematics_float2_
@@ -11907,6 +12084,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.asvector4
   nameWithType: math2.asvector4
+- uid: ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: barycentric(double2, double2, double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_barycentric_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.barycentric(double2, double2, double2, double2)
+- uid: ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: barycentric(double3, double3, double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_barycentric_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.barycentric(double3, double3, double3, double3)
 - uid: ProjectDawn.Mathematics.math2.barycentric(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: barycentric(float2, float2, float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_barycentric_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -11926,31 +12115,61 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.barycentric
   nameWithType: math2.barycentric
-- uid: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  name: bazier(float2, float2, Single)
-  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bazier_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
-  commentId: M:ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  fullName: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
-  nameWithType: math2.bazier(float2, float2, Single)
-- uid: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  name: bazier(float2, float2, float2, Single)
-  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bazier_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
-  commentId: M:ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  fullName: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
-  nameWithType: math2.bazier(float2, float2, float2, Single)
-- uid: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  name: bazier(float2, float2, float2, float2, Single)
-  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bazier_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
-  commentId: M:ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
-  fullName: ProjectDawn.Mathematics.math2.bazier(Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
-  nameWithType: math2.bazier(float2, float2, float2, float2, Single)
-- uid: ProjectDawn.Mathematics.math2.bazier*
-  name: bazier
-  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bazier_
-  commentId: Overload:ProjectDawn.Mathematics.math2.bazier
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  name: bezier(double2, double2, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_double2_Unity_Mathematics_double2_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2, Unity.Mathematics.double2, System.Double)
+  nameWithType: math2.bezier(double2, double2, Double)
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  name: bezier(double2, double2, double2, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, System.Double)
+  nameWithType: math2.bezier(double2, double2, double2, Double)
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  name: bezier(double2, double2, double2, double2, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, System.Double)
+  nameWithType: math2.bezier(double2, double2, double2, double2, Double)
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  name: bezier(float2, float2, Single)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
+  nameWithType: math2.bezier(float2, float2, Single)
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  name: bezier(float2, float2, float2, Single)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
+  nameWithType: math2.bezier(float2, float2, float2, Single)
+- uid: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  name: bezier(float2, float2, float2, float2, Single)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_System_Single_
+  commentId: M:ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,System.Single)
+  fullName: ProjectDawn.Mathematics.math2.bezier(Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, Unity.Mathematics.float2, System.Single)
+  nameWithType: math2.bezier(float2, float2, float2, float2, Single)
+- uid: ProjectDawn.Mathematics.math2.bezier*
+  name: bezier
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_bezier_
+  commentId: Overload:ProjectDawn.Mathematics.math2.bezier
   isSpec: "True"
-  fullName: ProjectDawn.Mathematics.math2.bazier
-  nameWithType: math2.bazier
+  fullName: ProjectDawn.Mathematics.math2.bezier
+  nameWithType: math2.bezier
+- uid: ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double3)
+  name: blend(double2, double2, double2, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_blend_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double3)
+  nameWithType: math2.blend(double2, double2, double2, double3)
+- uid: ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: blend(double3, double3, double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_blend_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.blend(double3, double3, double3, double3)
 - uid: ProjectDawn.Mathematics.math2.blend(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float3)
   name: blend(float2, float2, float2, float3)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_blend_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float3_
@@ -11970,6 +12189,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.blend
   nameWithType: math2.blend
+- uid: ProjectDawn.Mathematics.math2.cross(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: cross(double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_cross_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.cross(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.cross(Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.cross(double2, double2)
 - uid: ProjectDawn.Mathematics.math2.cross(Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: cross(float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_cross_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12014,6 +12239,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.determinant
   nameWithType: math2.determinant
+- uid: ProjectDawn.Mathematics.math2.direction(System.Double)
+  name: direction(Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_direction_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.direction(System.Double)
+  fullName: ProjectDawn.Mathematics.math2.direction(System.Double)
+  nameWithType: math2.direction(Double)
 - uid: ProjectDawn.Mathematics.math2.direction(System.Single)
   name: direction(Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_direction_System_Single_
@@ -12027,6 +12258,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.direction
   nameWithType: math2.direction
+- uid: ProjectDawn.Mathematics.math2.even(System.Double)
+  name: even(Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.even(System.Double)
+  fullName: ProjectDawn.Mathematics.math2.even(System.Double)
+  nameWithType: math2.even(Double)
 - uid: ProjectDawn.Mathematics.math2.even(System.Int32)
   name: even(Int32)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_System_Int32_
@@ -12039,6 +12276,24 @@ references:
   commentId: M:ProjectDawn.Mathematics.math2.even(System.Single)
   fullName: ProjectDawn.Mathematics.math2.even(System.Single)
   nameWithType: math2.even(Single)
+- uid: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double2)
+  name: even(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double2)
+  nameWithType: math2.even(double2)
+- uid: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double3)
+  name: even(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double3)
+  nameWithType: math2.even(double3)
+- uid: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double4)
+  name: even(double4)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_Unity_Mathematics_double4_
+  commentId: M:ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double4)
+  fullName: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.double4)
+  nameWithType: math2.even(double4)
 - uid: ProjectDawn.Mathematics.math2.even(Unity.Mathematics.float2)
   name: even(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_even_Unity_Mathematics_float2_
@@ -12095,6 +12350,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.factorial
   nameWithType: math2.factorial
+- uid: ProjectDawn.Mathematics.math2.hyperbola(System.Double,System.Double)
+  name: hyperbola(Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_hyperbola_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.hyperbola(System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.hyperbola(System.Double, System.Double)
+  nameWithType: math2.hyperbola(Double, Double)
 - uid: ProjectDawn.Mathematics.math2.hyperbola(System.Single,System.Single)
   name: hyperbola(Single, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_hyperbola_System_Single_System_Single_
@@ -12108,12 +12369,30 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.hyperbola
   nameWithType: math2.hyperbola
+- uid: ProjectDawn.Mathematics.math2.invlerp(System.Double,System.Double,System.Double)
+  name: invlerp(Double, Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_invlerp_System_Double_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.invlerp(System.Double,System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.invlerp(System.Double, System.Double, System.Double)
+  nameWithType: math2.invlerp(Double, Double, Double)
 - uid: ProjectDawn.Mathematics.math2.invlerp(System.Single,System.Single,System.Single)
   name: invlerp(Single, Single, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_invlerp_System_Single_System_Single_System_Single_
   commentId: M:ProjectDawn.Mathematics.math2.invlerp(System.Single,System.Single,System.Single)
   fullName: ProjectDawn.Mathematics.math2.invlerp(System.Single, System.Single, System.Single)
   nameWithType: math2.invlerp(Single, Single, Single)
+- uid: ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: invlerp(double2, double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_invlerp_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.invlerp(double2, double2, double2)
+- uid: ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: invlerp(double3, double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_invlerp_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.invlerp(double3, double3, double3)
 - uid: ProjectDawn.Mathematics.math2.invlerp(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: invlerp(float2, float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_invlerp_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12133,6 +12412,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.invlerp
   nameWithType: math2.invlerp
+- uid: ProjectDawn.Mathematics.math2.isbarycentric(Unity.Mathematics.double3)
+  name: isbarycentric(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isbarycentric_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.isbarycentric(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.isbarycentric(Unity.Mathematics.double3)
+  nameWithType: math2.isbarycentric(double3)
 - uid: ProjectDawn.Mathematics.math2.isbarycentric(Unity.Mathematics.float3)
   name: isbarycentric(float3)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isbarycentric_Unity_Mathematics_float3_
@@ -12146,6 +12431,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.isbarycentric
   nameWithType: math2.isbarycentric
+- uid: ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: iscclockwise(double2, double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscclockwise_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.iscclockwise(double2, double2, double2)
+- uid: ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: iscclockwise(double3, double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscclockwise_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.iscclockwise(double3, double3, double3)
 - uid: ProjectDawn.Mathematics.math2.iscclockwise(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: iscclockwise(float2, float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscclockwise_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12165,6 +12462,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.iscclockwise
   nameWithType: math2.iscclockwise
+- uid: ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: isclockwise(double2, double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isclockwise_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.isclockwise(double2, double2, double2)
+- uid: ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: isclockwise(double3, double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isclockwise_Unity_Mathematics_double3_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double3,Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.double3, Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.isclockwise(double3, double3, double3)
 - uid: ProjectDawn.Mathematics.math2.isclockwise(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: isclockwise(float2, float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isclockwise_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12184,6 +12493,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.isclockwise
   nameWithType: math2.isclockwise
+- uid: ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: iscollinear(double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscollinear_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.iscollinear(double2, double2)
+- uid: ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double3,Unity.Mathematics.double3)
+  name: iscollinear(double3, double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscollinear_Unity_Mathematics_double3_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double3,Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.double3, Unity.Mathematics.double3)
+  nameWithType: math2.iscollinear(double3, double3)
 - uid: ProjectDawn.Mathematics.math2.iscollinear(Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: iscollinear(float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_iscollinear_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12203,6 +12524,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.iscollinear
   nameWithType: math2.iscollinear
+- uid: ProjectDawn.Mathematics.math2.isdelaunay(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: isdelaunay(double2, double2, double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isdelaunay_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.isdelaunay(Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.isdelaunay(Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.isdelaunay(double2, double2, double2, double2)
 - uid: ProjectDawn.Mathematics.math2.isdelaunay(Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: isdelaunay(float2, float2, float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_isdelaunay_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12216,6 +12543,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.isdelaunay
   nameWithType: math2.isdelaunay
+- uid: ProjectDawn.Mathematics.math2.istriangle(System.Double,System.Double,System.Double)
+  name: istriangle(Double, Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_istriangle_System_Double_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.istriangle(System.Double,System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.istriangle(System.Double, System.Double, System.Double)
+  nameWithType: math2.istriangle(Double, Double, Double)
 - uid: ProjectDawn.Mathematics.math2.istriangle(System.Single,System.Single,System.Single)
   name: istriangle(Single, Single, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_istriangle_System_Single_System_Single_System_Single_
@@ -12229,6 +12562,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.istriangle
   nameWithType: math2.istriangle
+- uid: ProjectDawn.Mathematics.math2.line(System.Double,System.Double,System.Double,System.Double)
+  name: line(Double, Double, Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_line_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.line(System.Double,System.Double,System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.line(System.Double, System.Double, System.Double, System.Double)
+  nameWithType: math2.line(Double, Double, Double, Double)
 - uid: ProjectDawn.Mathematics.math2.line(System.Single,System.Single,System.Single,System.Single)
   name: line(Single, Single, Single, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_line_System_Single_System_Single_System_Single_System_Single_
@@ -12242,6 +12581,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.line
   nameWithType: math2.line
+- uid: ProjectDawn.Mathematics.math2.odd(System.Double)
+  name: odd(Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.odd(System.Double)
+  fullName: ProjectDawn.Mathematics.math2.odd(System.Double)
+  nameWithType: math2.odd(Double)
 - uid: ProjectDawn.Mathematics.math2.odd(System.Int32)
   name: odd(Int32)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_System_Int32_
@@ -12254,6 +12599,24 @@ references:
   commentId: M:ProjectDawn.Mathematics.math2.odd(System.Single)
   fullName: ProjectDawn.Mathematics.math2.odd(System.Single)
   nameWithType: math2.odd(Single)
+- uid: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double2)
+  name: odd(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double2)
+  nameWithType: math2.odd(double2)
+- uid: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double3)
+  name: odd(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double3)
+  nameWithType: math2.odd(double3)
+- uid: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double4)
+  name: odd(double4)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_Unity_Mathematics_double4_
+  commentId: M:ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double4)
+  fullName: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.double4)
+  nameWithType: math2.odd(double4)
 - uid: ProjectDawn.Mathematics.math2.odd(Unity.Mathematics.float2)
   name: odd(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_odd_Unity_Mathematics_float2_
@@ -12297,6 +12660,18 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.odd
   nameWithType: math2.odd
+- uid: ProjectDawn.Mathematics.math2.parabola(System.Double,System.Double)
+  name: parabola(Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_parabola_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.parabola(System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.parabola(System.Double, System.Double)
+  nameWithType: math2.parabola(Double, Double)
+- uid: ProjectDawn.Mathematics.math2.parabola(System.Double,System.Double,System.Double,System.Double)
+  name: parabola(Double, Double, Double, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_parabola_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.parabola(System.Double,System.Double,System.Double,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.parabola(System.Double, System.Double, System.Double, System.Double)
+  nameWithType: math2.parabola(Double, Double, Double, Double)
 - uid: ProjectDawn.Mathematics.math2.parabola(System.Single,System.Single)
   name: parabola(Single, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_parabola_System_Single_System_Single_
@@ -12366,6 +12741,12 @@ references:
   commentId: F:ProjectDawn.Mathematics.math2.PI2_D
   fullName: ProjectDawn.Mathematics.math2.PI2_D
   nameWithType: math2.PI2_D
+- uid: ProjectDawn.Mathematics.math2.rotate(Unity.Mathematics.double2,System.Double)
+  name: rotate(double2, Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_rotate_Unity_Mathematics_double2_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.rotate(Unity.Mathematics.double2,System.Double)
+  fullName: ProjectDawn.Mathematics.math2.rotate(Unity.Mathematics.double2, System.Double)
+  nameWithType: math2.rotate(double2, Double)
 - uid: ProjectDawn.Mathematics.math2.rotate(Unity.Mathematics.float2,System.Single)
   name: rotate(float2, Single)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_rotate_Unity_Mathematics_float2_System_Single_
@@ -12379,6 +12760,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.rotate
   nameWithType: math2.rotate
+- uid: ProjectDawn.Mathematics.math2.sangle(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  name: sangle(double2, double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sangle_Unity_Mathematics_double2_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.sangle(Unity.Mathematics.double2,Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.sangle(Unity.Mathematics.double2, Unity.Mathematics.double2)
+  nameWithType: math2.sangle(double2, double2)
 - uid: ProjectDawn.Mathematics.math2.sangle(Unity.Mathematics.float2,Unity.Mathematics.float2)
   name: sangle(float2, float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sangle_Unity_Mathematics_float2_Unity_Mathematics_float2_
@@ -12392,6 +12779,24 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.sangle
   nameWithType: math2.sangle
+- uid: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double2)
+  name: sort(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sort_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double2)
+  nameWithType: math2.sort(double2)
+- uid: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double3)
+  name: sort(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sort_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double3)
+  nameWithType: math2.sort(double3)
+- uid: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double4)
+  name: sort(double4)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sort_Unity_Mathematics_double4_
+  commentId: M:ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double4)
+  fullName: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.double4)
+  nameWithType: math2.sort(double4)
 - uid: ProjectDawn.Mathematics.math2.sort(Unity.Mathematics.float2)
   name: sort(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sort_Unity_Mathematics_float2_
@@ -12435,6 +12840,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.sort
   nameWithType: math2.sort
+- uid: ProjectDawn.Mathematics.math2.sq(System.Double)
+  name: sq(Double)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sq_System_Double_
+  commentId: M:ProjectDawn.Mathematics.math2.sq(System.Double)
+  fullName: ProjectDawn.Mathematics.math2.sq(System.Double)
+  nameWithType: math2.sq(Double)
 - uid: ProjectDawn.Mathematics.math2.sq(System.Int32)
   name: sq(Int32)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sq_System_Int32_
@@ -12454,6 +12865,24 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Mathematics.math2.sq
   nameWithType: math2.sq
+- uid: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double2)
+  name: sum(double2)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sum_Unity_Mathematics_double2_
+  commentId: M:ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double2)
+  fullName: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double2)
+  nameWithType: math2.sum(double2)
+- uid: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double3)
+  name: sum(double3)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sum_Unity_Mathematics_double3_
+  commentId: M:ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double3)
+  fullName: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double3)
+  nameWithType: math2.sum(double3)
+- uid: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double4)
+  name: sum(double4)
+  href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sum_Unity_Mathematics_double4_
+  commentId: M:ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double4)
+  fullName: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.double4)
+  nameWithType: math2.sum(double4)
 - uid: ProjectDawn.Mathematics.math2.sum(Unity.Mathematics.float2)
   name: sum(float2)
   href: api/ProjectDawn.Mathematics.math2.html#ProjectDawn_Mathematics_math2_sum_Unity_Mathematics_float2_

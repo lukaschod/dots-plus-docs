@@ -470,7 +470,7 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_CircumscribedSphere.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.CircumscribedSphere%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L148">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L159">View Source</a>
   </span>
   <a id="ProjectDawn_Geometry3D_Box_CircumscribedSphere_" data-uid="ProjectDawn.Geometry3D.Box.CircumscribedSphere*"></a>
   <h4 id="ProjectDawn_Geometry3D_Box_CircumscribedSphere" data-uid="ProjectDawn.Geometry3D.Box.CircumscribedSphere">CircumscribedSphere()</h4>
@@ -677,7 +677,7 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_InscribedSphere.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.InscribedSphere%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L153">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L164">View Source</a>
   </span>
   <a id="ProjectDawn_Geometry3D_Box_InscribedSphere_" data-uid="ProjectDawn.Geometry3D.Box.InscribedSphere*"></a>
   <h4 id="ProjectDawn_Geometry3D_Box_InscribedSphere" data-uid="ProjectDawn.Geometry3D.Box.InscribedSphere">InscribedSphere()</h4>
@@ -753,14 +753,68 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Box_Unity_Mathematics_float4x4_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box%2CUnity.Mathematics.float4x4)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L139">View Source</a>
+  </span>
+  <a id="ProjectDawn_Geometry3D_Box_Overlap_" data-uid="ProjectDawn.Geometry3D.Box.Overlap*"></a>
+  <h4 id="ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Box_Unity_Mathematics_float4x4_" data-uid="ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box,Unity.Mathematics.float4x4)">Overlap(Box, float4x4)</h4>
+  <div class="markdown level1 summary"><p>Returns true if shapes surfaces overlap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Overlap(Box box, float4x4 transform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Geometry3D.Box.html">Box</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Unity.Mathematics.float4x4</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Capsule_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Capsule)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L143">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L149">View Source</a>
   </span>
   <a id="ProjectDawn_Geometry3D_Box_Overlap_" data-uid="ProjectDawn.Geometry3D.Box.Overlap*"></a>
   <h4 id="ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Capsule_" data-uid="ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Capsule)">Overlap(Capsule)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns true if shapes surfaces overlap.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -803,7 +857,7 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Plane_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Plane)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L139">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L144">View Source</a>
   </span>
   <a id="ProjectDawn_Geometry3D_Box_Overlap_" data-uid="ProjectDawn.Geometry3D.Box.Overlap*"></a>
   <h4 id="ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Plane_" data-uid="ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Plane)">Overlap(Plane)</h4>
@@ -896,6 +950,54 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Triangle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Triangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L154">View Source</a>
+  </span>
+  <a id="ProjectDawn_Geometry3D_Box_Overlap_" data-uid="ProjectDawn.Geometry3D.Box.Overlap*"></a>
+  <h4 id="ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Triangle_" data-uid="ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Triangle)">Overlap(Triangle)</h4>
+  <div class="markdown level1 summary"><p>Returns true if triangle surfaces overlap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Overlap(Triangle triangle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Geometry3D.Triangle.html">Triangle</a></td>
+        <td><span class="parametername">triangle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Overlap_Unity_Mathematics_float3_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Overlap(Unity.Mathematics.float3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -947,7 +1049,7 @@ public struct Box : IEquatable&lt;Box&gt;</code></pre>
     <a href="https://github.com/lukaschod/DotsPlus/new/main/apiSpec/new?filename=ProjectDawn_Geometry3D_Box_Union_ProjectDawn_Geometry3D_Box_ProjectDawn_Geometry3D_Box_.md&amp;value=---%0Auid%3A%20ProjectDawn.Geometry3D.Box.Union(ProjectDawn.Geometry3D.Box%2CProjectDawn.Geometry3D.Box)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L158">View Source</a>
+    <a href="https://github.com/lukaschod/DotsPlus/blob/main/Packages/com.projectdawn.dotsplus/ProjectDawn.Geometry/3D/Box.cs/#L169">View Source</a>
   </span>
   <a id="ProjectDawn_Geometry3D_Box_Union_" data-uid="ProjectDawn.Geometry3D.Box.Union*"></a>
   <h4 id="ProjectDawn_Geometry3D_Box_Union_ProjectDawn_Geometry3D_Box_ProjectDawn_Geometry3D_Box_" data-uid="ProjectDawn.Geometry3D.Box.Union(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Box)">Union(Box, Box)</h4>

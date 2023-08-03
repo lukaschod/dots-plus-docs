@@ -6677,6 +6677,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Geometry2D.Circle.Union
   nameWithType: Circle.Union
+- uid: ProjectDawn.Geometry2D.Circle.Unit
+  name: Unit
+  href: api/ProjectDawn.Geometry2D.Circle.html#ProjectDawn_Geometry2D_Circle_Unit
+  commentId: P:ProjectDawn.Geometry2D.Circle.Unit
+  fullName: ProjectDawn.Geometry2D.Circle.Unit
+  nameWithType: Circle.Unit
+- uid: ProjectDawn.Geometry2D.Circle.Unit*
+  name: Unit
+  href: api/ProjectDawn.Geometry2D.Circle.html#ProjectDawn_Geometry2D_Circle_Unit_
+  commentId: Overload:ProjectDawn.Geometry2D.Circle.Unit
+  isSpec: "True"
+  fullName: ProjectDawn.Geometry2D.Circle.Unit
+  nameWithType: Circle.Unit
 - uid: ProjectDawn.Geometry2D.ConvexPolygon`1
   name: ConvexPolygon<T>
   href: api/ProjectDawn.Geometry2D.ConvexPolygon-1.html
@@ -9211,6 +9224,12 @@ references:
   commentId: M:ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box)
   fullName: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box)
   nameWithType: Box.Overlap(Box)
+- uid: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box,Unity.Mathematics.float4x4)
+  name: Overlap(Box, float4x4)
+  href: api/ProjectDawn.Geometry3D.Box.html#ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Box_Unity_Mathematics_float4x4_
+  commentId: M:ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box,Unity.Mathematics.float4x4)
+  fullName: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Box, Unity.Mathematics.float4x4)
+  nameWithType: Box.Overlap(Box, float4x4)
 - uid: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Capsule)
   name: Overlap(Capsule)
   href: api/ProjectDawn.Geometry3D.Box.html#ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Capsule_
@@ -9229,6 +9248,12 @@ references:
   commentId: M:ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Sphere)
   fullName: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Sphere)
   nameWithType: Box.Overlap(Sphere)
+- uid: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Triangle)
+  name: Overlap(Triangle)
+  href: api/ProjectDawn.Geometry3D.Box.html#ProjectDawn_Geometry3D_Box_Overlap_ProjectDawn_Geometry3D_Triangle_
+  commentId: M:ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Triangle)
+  fullName: ProjectDawn.Geometry3D.Box.Overlap(ProjectDawn.Geometry3D.Triangle)
+  nameWithType: Box.Overlap(Triangle)
 - uid: ProjectDawn.Geometry3D.Box.Overlap(Unity.Mathematics.float3)
   name: Overlap(float3)
   href: api/ProjectDawn.Geometry3D.Box.html#ProjectDawn_Geometry3D_Box_Overlap_Unity_Mathematics_float3_
@@ -10629,6 +10654,12 @@ references:
   commentId: M:ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Box)
   fullName: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox(ProjectDawn.Geometry3D.Box, ProjectDawn.Geometry3D.Box)
   nameWithType: ShapeUtility.OverlapBoxAndBox(Box, Box)
+- uid: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Box,Unity.Mathematics.float4x4)
+  name: OverlapBoxAndBox(Box, Box, float4x4)
+  href: api/ProjectDawn.Geometry3D.ShapeUtility.html#ProjectDawn_Geometry3D_ShapeUtility_OverlapBoxAndBox_ProjectDawn_Geometry3D_Box_ProjectDawn_Geometry3D_Box_Unity_Mathematics_float4x4_
+  commentId: M:ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Box,Unity.Mathematics.float4x4)
+  fullName: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox(ProjectDawn.Geometry3D.Box, ProjectDawn.Geometry3D.Box, Unity.Mathematics.float4x4)
+  nameWithType: ShapeUtility.OverlapBoxAndBox(Box, Box, float4x4)
 - uid: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndBox*
   name: OverlapBoxAndBox
   href: api/ProjectDawn.Geometry3D.ShapeUtility.html#ProjectDawn_Geometry3D_ShapeUtility_OverlapBoxAndBox_
@@ -10662,6 +10693,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndSphere
   nameWithType: ShapeUtility.OverlapBoxAndSphere
+- uid: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Triangle)
+  name: OverlapBoxAndTriangle(Box, Triangle)
+  href: api/ProjectDawn.Geometry3D.ShapeUtility.html#ProjectDawn_Geometry3D_ShapeUtility_OverlapBoxAndTriangle_ProjectDawn_Geometry3D_Box_ProjectDawn_Geometry3D_Triangle_
+  commentId: M:ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle(ProjectDawn.Geometry3D.Box,ProjectDawn.Geometry3D.Triangle)
+  fullName: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle(ProjectDawn.Geometry3D.Box, ProjectDawn.Geometry3D.Triangle)
+  nameWithType: ShapeUtility.OverlapBoxAndTriangle(Box, Triangle)
+- uid: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle*
+  name: OverlapBoxAndTriangle
+  href: api/ProjectDawn.Geometry3D.ShapeUtility.html#ProjectDawn_Geometry3D_ShapeUtility_OverlapBoxAndTriangle_
+  commentId: Overload:ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle
+  isSpec: "True"
+  fullName: ProjectDawn.Geometry3D.ShapeUtility.OverlapBoxAndTriangle
+  nameWithType: ShapeUtility.OverlapBoxAndTriangle
 - uid: ProjectDawn.Geometry3D.ShapeUtility.OverlapCapsuleAndBox(ProjectDawn.Geometry3D.Capsule,ProjectDawn.Geometry3D.Box)
   name: OverlapCapsuleAndBox(Capsule, Box)
   href: api/ProjectDawn.Geometry3D.ShapeUtility.html#ProjectDawn_Geometry3D_ShapeUtility_OverlapCapsuleAndBox_ProjectDawn_Geometry3D_Capsule_ProjectDawn_Geometry3D_Box_
